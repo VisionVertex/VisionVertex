@@ -13,19 +13,18 @@ const Hero7: FC = () => {
             </h2>
 
             <p className="lead fs-24 lh-sm px-md-5 px-xl-15 px-xxl-10 mb-7" style={zoomInAnimate('500ms')}>
-              We are an award winning web &amp; mobile design agency that strongly believes in the power of creative
-              ideas.
+            At VisionVertex, innovation is our language. With a team bursting with fresh talent and enthusiasm, we architect digital solutions that stand out, inspire, and make a lasting impact. Your vision, magnified by our expertise.
             </p>
           </div>
         </div>
 
         <div className="d-flex justify-content-center">
           <span style={slideInDownAnimate('900ms')}>
-            <NextLink href="#" title="See Projects" className="btn btn-lg btn-primary rounded-pill mx-1" />
+            <NextLink href="/projects" title="See Projects" className="btn btn-lg btn-primary rounded-pill mx-1" />
           </span>
 
           <span style={slideInDownAnimate('1200ms')}>
-            <NextLink href="#" title="Contact Us" className="btn btn-lg btn-outline-primary rounded-pill mx-1" />
+            <NextLink href="/contact" title="Contact Us" className="btn btn-lg btn-outline-primary rounded-pill mx-1" />
           </span>
         </div>
 
