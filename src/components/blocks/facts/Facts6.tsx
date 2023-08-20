@@ -39,8 +39,8 @@ const Facts6: FC = () => {
           We have considered our business solutions to support you on every stage of your growth.
         </p>
         <p className="mb-0">
-          Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac,
-          vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+        Merge with a community that breathes tech. At VisionVertex, our youthful vigor drives us to design solutions that don't just meet standards but set them.
+        Our community thrives on shared visions and collective achievements. Immerse yourself in this vibrant nexus, and let's co-write the next chapter in tech evolution.
         </p>
       </div>
     </div>
