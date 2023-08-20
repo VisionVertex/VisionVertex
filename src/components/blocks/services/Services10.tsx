@@ -19,8 +19,8 @@ const Services10: FC = () => {
                 <ServiceCard5
                   url="#"
                   icon="uil-monitor"
-                  title="Web Design"
-                  description="Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida."
+                  title="Web Development"
+                  description="From the first line of code to the final user test, our web development process ensures a seamless, responsive, and unforgettable user experience."
                 />
               </div>
             </div>
@@ -37,10 +37,10 @@ const Services10: FC = () => {
               <div className="col-lg-12">
                 <ServiceCard5
                   url="#"
-                  title="Mobile Design"
+                  title="Mobile App Development"
                   icon="uil-mobile-android"
                   className="card shadow-lg mb-md-6 mt-lg-6"
-                  description="Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida."
+                  description="Transform your idea into a powerful mobile application. We harness the latest technologies to deliver apps that are intuitive, efficient, and aesthetically pleasing."
                 />
               </div>
             </div>
@@ -52,16 +52,14 @@ const Services10: FC = () => {
         <h2 className="display-4 mb-3">What We Do?</h2>
 
         <p className="lead fs-lg lh-sm">
-          The full service we are offering is specifically designed to meet your business needs.
+        Your vision. Our vertex. Infinite possibilities.
         </p>
 
         <p>
-          Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo.
-          Maecenas faucibus mollis elit interdum. Duis mollis, est non commodo luctus, nisi erat ligula.
+        VisionVertex is at the intersection of imagination and innovation. Every service we offer is a blend of youthful creativity and tech prowess, ensuring your business stands tall in a digital-first world. We take pride in translating challenges into opportunities, crafting digital narratives that resonate, engage, and drive results. With VisionVertex by your side, envision a digital journey as unique as your brand.
         </p>
 
-        <NextLink title="More Details" href="#" className="btn btn-primary rounded-pill mt-3" />
+        <NextLink title="More Details" href="/about-us" className="btn btn-primary rounded-pill mt-3" />
       </div>
     </div>
   );
