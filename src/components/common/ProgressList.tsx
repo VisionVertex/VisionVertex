@@ -2,10 +2,10 @@ import { FC } from 'react';
 import useProgressbar from 'hooks/useProgressbar';
 // -------- data -------- //
 const list = [
-  { id: 1, percent: 100, title: 'Marketing', color: 'blue' },
-  { id: 2, percent: 80, title: 'Strategy', color: 'yellow' },
-  { id: 3, percent: 85, title: 'Development', color: 'orange' },
-  { id: 4, percent: 90, title: 'Data Analysis', color: 'green' }
+  { id: 1, percent: 100, title: 'Web Development', color: 'blue' },
+  { id: 2, percent: 100, title: 'Mobile App Development', color: 'yellow' },
+  { id: 3, percent: 100, title: 'Python Development', color: 'orange' },
+  { id: 4, percent: 100, title: 'SEO & Digital Marketing', color: 'green' }
 ];
 
 const ProgressList: FC = () => {

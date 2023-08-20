@@ -52,8 +52,9 @@ const AboutTwo: NextPage = () => {
       {/* ========== header section ========== */}
       <header className="wrapper bg-soft-primary">
         <Navbar
-          language
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
+        social
+          // language
+          // button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
         />
       </header>
 
@@ -64,7 +65,7 @@ const AboutTwo: NextPage = () => {
             <div className="row">
               <div className="col-xl-5 mx-auto mb-6">
                 <h1 className="display-1 mb-3">About Us</h1>
-                <p className="lead mb-0">A company turning ideas into beautiful things.</p>
+                <p className="lead mb-0">Your vision. Our vertex. Infinite possibilities.</p>
               </div>
             </div>
           </div>
@@ -97,9 +98,7 @@ const AboutTwo: NextPage = () => {
                 </h3>
 
                 <p>
-                  Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac
-                  consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur
-                  duis mollis commodo.
+                VisionVertex is at the intersection of imagination and innovation. Every service we offer is a blend of youthful creativity and tech prowess, ensuring your business stands tall in a digital-first world. We take pride in translating challenges into opportunities, crafting digital narratives that resonate, engage, and drive results. With VisionVertex by your side, envision a digital journey as unique as your brand.
                 </p>
               </div>
             </div>
