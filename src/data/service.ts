@@ -30,6 +30,20 @@ import CloudComputing from 'icons/lineal/CloudComputing';
 import { LinkType } from 'types/demo-1';
 import color from 'utils/color';
 
+
+//custom services 
+export const ourServies=[
+  {
+    id:1,
+    title:'Web Development',
+    url:'/services/web-development'
+  },
+  {
+    id:2,
+    title:'Mobile App Development',
+    url:'/services/mobile-app-development'
+  }
+]
 // used in the services-1 block
 export const serviceList1 = [
   {
