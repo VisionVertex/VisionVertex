@@ -1,9 +1,9 @@
 import { NextPage } from 'next';
 import { Fragment } from 'react';
 // -------- custom component -------- //
-import { Team8 } from 'components/blocks/team';
+import { Team3, Team8 } from 'components/blocks/team';
 import { Navbar } from 'components/blocks/navbar';
-import { Footer8 } from 'components/blocks/footer';
+import { Footer3, Footer8 } from 'components/blocks/footer';
 import { Clients1 } from 'components/blocks/clients';
 import { Process8 } from 'components/blocks/process';
 import Carousel from 'components/reuseable/Carousel';
@@ -19,30 +19,33 @@ import Megaphone from 'icons/lineal/Megaphone';
 import SettingsThree from 'icons/lineal/SettingsThree';
 // -------- data -------- //
 import { testimonialList2 } from 'data/testimonial-list';
+import Code from 'icons/solid-mono/Code';
+import SeoTwo from 'icons/solid/SeoTwo';
+import Devices from 'icons/solid-mono/Devices';
 const serviceList2 = [
   {
     id: 1,
-    title: 'Marketing',
-    Icon: <Megaphone />,
-    description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.`
+    title: 'Web Development',
+    Icon: <Code />,
+    description: `From the first line of code to the final user test, our web development process ensures a seamless, responsive, and unforgettable user experience.`
   },
   {
     id: 2,
-    title: 'Strategy',
-    Icon: <Target className="icon-svg-md text-green mb-3" />,
-    description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.`
+    title: 'Mobile App Development',
+    Icon: <Devices/>,
+    description: `Transform your idea into a powerful mobile application. We harness the latest technologies to deliver apps that are intuitive, efficient, and aesthetically pleasing.`
   },
   {
     id: 3,
-    title: 'Development',
+    title: 'Python Development',
     Icon: <SettingsThree />,
-    description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.`
+    description: `Elevate your business with VisionVertex's Python expertise. From crafting desktop apps to automated testing and web solutions, our Python prowess delivers innovation and efficiency.`
   },
   {
     id: 4,
-    Icon: <BarChart />,
-    title: 'Data Analysis',
-    description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.`
+    Icon: <SeoTwo/>,
+    title: 'SEO & Digital Marketing',
+    description: `Increase your brand's digital footprint. Our marketing strategies are data-driven, ensuring your brand reaches its target audience effectively and climbs the search engine ranks.`
   }
 ];
 
@@ -143,7 +146,7 @@ const AboutTwo: NextPage = () => {
         </section>
 
         {/* ========== team section ========== */}
-        <Team8 />
+        <Team3 />
 
         <section className="wrapper bg-gray">
           <div className="container py-14 py-md-16">
@@ -203,7 +206,7 @@ const AboutTwo: NextPage = () => {
                   </div>
                   <div>
                     <h5 className="mb-1">Address</h5>
-                    <address>Moonshine St. 14/05 Light City, London</address>
+                    <address>Prayagraj,Uttar Pradesh,India</address>
                   </div>
                 </div>
                 <div className="d-flex flex-row">
@@ -214,7 +217,7 @@ const AboutTwo: NextPage = () => {
                   </div>
                   <div>
                     <h5 className="mb-1">Phone</h5>
-                    <p>00 (123) 456 78 90</p>
+                    <p>+91 8081100169</p>
                   </div>
                 </div>
                 <div className="d-flex flex-row">
@@ -226,8 +229,8 @@ const AboutTwo: NextPage = () => {
                   <div>
                     <h5 className="mb-1">E-mail</h5>
                     <p className="mb-0">
-                      <a href="mailto:sandbox@email.com" className="link-body">
-                        sandbox@email.com
+                      <a href="mailto: info@visionvertex.com" className="link-body">
+                      info@visionvertex.com
                       </a>
                     </p>
                   </div>
@@ -239,7 +242,7 @@ const AboutTwo: NextPage = () => {
       </main>
 
       {/* ========== footer section ========== */}
-      <Footer8 />
+      <Footer3 hiddenNewsletter={true} />
     </Fragment>
   );
 };

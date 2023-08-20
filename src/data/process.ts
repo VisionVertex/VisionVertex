@@ -152,19 +152,19 @@ export const processList7 = [
     id: 1,
     Icon: LightBulb,
     title: 'Collect Ideas',
-    description: 'Nulla vitae elit libero pharetra augue dapibus.'
+    description: "We begin by absorbing your vision, understanding your brand, and gathering innovative ideas. By collaborating closely with you, we ensure our digital strategies are aligned with your business goals and audience's needs."
   },
   {
     id: 2,
     Icon: PieChartTwo,
     title: 'Data Analysis',
-    description: 'Vivamus sagittis lacus augue laoreet vel.'
+    description: "Data is the backbone of effective decision-making. Our team dives deep into analytics, market trends, and user behaviors. By synthesizing this data, we carve out strategies that are not just relevant but also resonate with the evolving digital audience."
   },
   {
     id: 3,
     Icon: Design,
     title: 'Magic Touch',
-    description: 'Cras mattis consectetur purus sit amet.'
+    description: "The final touch is where our expertise truly shines. Whether it's fine-tuning the UI/UX for optimal user engagement, optimizing the backend for performance, or integrating innovative features, we ensure your digital asset stands out and delivers unmatched value."
   }
 ];
 

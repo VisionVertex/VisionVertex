@@ -32,7 +32,8 @@ const TeamCard1: FC<TeamCard1Props> = (props) => {
         <nav className="nav social mb-0">
           <IconLink href={twitterUrl} icon={<i className="uil uil-twitter" />} />
           <IconLink href={facebookUrl} icon={<i className="uil uil-facebook-f" />} />
-          <IconLink href={dribbbleUrl} icon={<i className="uil uil-dribbble" />} />
+          <IconLink href={dribbbleUrl} icon={<i className="uil uil-linkedin" />} />
+          <IconLink href={dribbbleUrl} icon={<i className="uil uil-instagram" />} />
         </nav>
       </div>
     </div>
