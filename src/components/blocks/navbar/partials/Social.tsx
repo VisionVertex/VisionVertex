@@ -1,7 +1,7 @@
 const Social = () => {
   return (
     <li className="nav-item">
-      <nav className="nav social social-muted justify-content-end text-end">
+      <nav className="nav social social justify-content-end text-end">
         <a href="#">
           <i className="uil uil-twitter" />
         </a>
@@ -11,7 +11,7 @@ const Social = () => {
         </a>
 
         <a href="#">
-          <i className="uil uil-dribbble" />
+          <i className="uil uil-linkedin" />
         </a>
 
         <a href="#">
