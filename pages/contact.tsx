@@ -3,7 +3,7 @@ import { Fragment } from 'react';
 // -------- custom component -------- //
 import { Navbar } from 'components/blocks/navbar';
 import { Tiles3 } from 'components/elements/tiles';
-import { Footer8 } from 'components/blocks/footer';
+import { Footer3, Footer8 } from 'components/blocks/footer';
 import Breadcrumb from 'components/reuseable/Breadcrumb';
 import PageProgress from 'components/common/PageProgress';
 import ContactForm from 'components/common/ContactForm';
@@ -22,8 +22,9 @@ const ContactTwo: NextPage = () => {
       {/* ========== header section ========== */}
       <header className="wrapper bg-soft-primary">
         <Navbar
-          language
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
+        social
+          // language
+          // button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
         />
       </header>
 
@@ -62,8 +63,8 @@ const ContactTwo: NextPage = () => {
                   <div>
                     <h5 className="mb-1">Address</h5>
                     <address>
-                      Moonshine St. 14/05 Light City, <br className="d-none d-md-block" />
-                      London, United Kingdom
+                    Prayagraj,Uttar Pradesh, <br className="d-none d-md-block" />
+                    India
                     </address>
                   </div>
                 </div>
@@ -77,7 +78,7 @@ const ContactTwo: NextPage = () => {
 
                   <div>
                     <h5 className="mb-1">Phone</h5>
-                    <p>00 (123) 456 78 90</p>
+                    <p> +91 8081100169</p>
                   </div>
                 </div>
 
@@ -91,8 +92,8 @@ const ContactTwo: NextPage = () => {
                   <div>
                     <h5 className="mb-1">E-mail</h5>
                     <p className="mb-0">
-                      <a href="mailto:sandbox@email.com" className="link-body">
-                        sandbox@email.com
+                      <a href="mailto:info@visionvertex.com" className="link-body">
+                        info@visionvertex.com
                       </a>
                     </p>
                   </div>
@@ -116,7 +117,7 @@ const ContactTwo: NextPage = () => {
       </main>
 
       {/* ========== footer section ========== */}
-      <Footer8 />
+      <Footer3 hiddenNewsletter={true} />
     </Fragment>
   );
 };
