@@ -13,7 +13,7 @@ import useIsotope from 'hooks/useIsotope';
 const projectList = [
   {
     id: 1,
-    link: '#',
+    link: '/projects/1',
     color: 'purple',
     type: 'product',
     category: 'COSMETIC',
@@ -22,7 +22,7 @@ const projectList = [
   },
   {
     id: 2,
-    link: '#',
+    link: '/project/2',
     color: 'leaf',
     type: 'workshop',
     category: 'COFFEE',
@@ -31,7 +31,7 @@ const projectList = [
   },
   {
     id: 3,
-    link: '#',
+    link: '/project/3',
     color: 'violet',
     type: 'still-life',
     category: 'STILL LIFE',
@@ -40,7 +40,7 @@ const projectList = [
   },
   {
     id: 4,
-    link: '#',
+    link: '/projects/4',
     color: 'yellow',
     type: 'product',
     category: 'PRODUCT',
