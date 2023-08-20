@@ -55,13 +55,13 @@ const Home: NextPage = () => {
             <About7 />
 
             {/* ========== happy customer section ========== */}
-            <Testimonial8 />
+            <Testimonial8  />
           </div>
         </section>
       </main>
 
       {/* ========== footer section ========== */}
-      <Footer3 />
+      <Footer3 hiddenNewsletter={true} />
     </Fragment>
   );
 };

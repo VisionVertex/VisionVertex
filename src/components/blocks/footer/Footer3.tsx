@@ -100,10 +100,12 @@ const Footer3: FC<Footer3Props> = ({ hiddenNewsletter }) => {
             <div className="widget">
               <h3 className="h2 mb-3 ">Join the Community</h3>
               <p className="lead mb-5">
-                Lets make something great together. We are trusted by over 5000+ clients. Join them by using our
-                services and grow your business.
+                Experience the pulse of modern tech with VisionVertex. Our dynamic team, always on the cusp of
+                innovation, designs solutions tailored for your evolving needs. Amidst the codes and algorithms, we find
+                our rhythm, uniting visionaries under one banner. Join us, and be part of a community shaping the
+                digital frontier.
               </p>
-              <NextLink title="Join Us" href="#" className="btn  btn-primary rounded-pill" />
+              <NextLink title="Join Us" href="/contact" className="btn  btn-primary rounded-pill" />
             </div>
           </div>
 
@@ -114,11 +116,11 @@ const Footer3: FC<Footer3Props> = ({ hiddenNewsletter }) => {
           <div className="col-md-4 col-lg-2">
             <div className="widget">
               <h4 className="widget-title  mb-3">Get in Touch</h4>
-              <address>Moonshine St. 14/05 Light City, London, United Kingdom</address>
+              <address>Prayagraj,Uttar Pradesh,India</address>
               <a href="mailto:first.last@email.com" className="link-body">
-                info@email.com
+                info@visionvertex.com
               </a>
-              <br /> 00 (123) 456 78 90
+              <br /> +91 8081100169
             </div>
           </div>
         </div>
@@ -126,7 +128,7 @@ const Footer3: FC<Footer3Props> = ({ hiddenNewsletter }) => {
         <hr className="mt-13 mt-md-15 mb-7" />
 
         <div className="d-md-flex align-items-center justify-content-between">
-          <p className="mb-2 mb-lg-0">© 2022 Sandbox. All rights reserved.</p>
+          <p className="mb-2 mb-lg-0">© 2023 VisionVertex. All rights reserved.</p>
           <SocialLinks className="nav social  text-md-end" />
         </div>
       </div>
