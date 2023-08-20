@@ -49,7 +49,7 @@ const Home: NextPage = () => {
         <section className="wrapper bg-light">
           <div className="container pb-8 pb-lg-10">
             {/* ========== have perfect section ========== */}
-            <About8 />
+            {/* <About8 /> */}
 
             {/* ========== why choose us section ========== */}
             <About7 />
