@@ -171,7 +171,7 @@ const Navbar: FC<NavbarProps> = (props) => {
           )}
 
           {/* ============= social icons link ============= */}
-          {social && <Social />}
+          {/* {social && <Social />} */}
 
           {/* ============= humburger button for small device ============= */}
           <li className="nav-item d-lg-none">
