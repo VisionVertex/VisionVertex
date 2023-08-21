@@ -68,8 +68,8 @@ const Navbar: FC<NavbarProps> = (props) => {
   const headerContent = (
     <Fragment>
       <div className="navbar-brand w-100">
-        <NextLink href="/" title={<img alt="logo" src={`/img/logos.jpeg`}  />} />
-      
+        {/* <NextLink href="/" title={<img alt="logo" src={`/img/${logo}.png`} srcSet={`/img/${logo}@2x.png 2x`} />} /> */}
+        <h2>VisonVertex</h2>
       </div>
 
       <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
