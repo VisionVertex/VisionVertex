@@ -33912,6 +33912,14 @@ button:focus {
     padding-top: 1.15rem;
     padding-bottom: 1.15rem;
   }
+ 
+ 
+.social-container {
+  display: block;
+}
+
+
+
   .navbar-expand-xxl.fancy:not(.fixed) .navbar-collapse .nav-link {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
@@ -44047,5 +44055,23 @@ footer.bg-dark.angled.lower-start:after, footer.bg-dark.angled.upper-start:befor
     max-width: 1550px !important;
     margin: 0 auto;
     position: relative;
+  }
+}
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .social-container {
+    display: none;
+  }
+}
+
+/* Define styles for larger screens */
+.social-container {
+  display: block;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .social-container {
+    display: none;
   }
 }
