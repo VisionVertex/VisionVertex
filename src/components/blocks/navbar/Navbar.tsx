@@ -67,9 +67,25 @@ const Navbar: FC<NavbarProps> = (props) => {
   // all main header contents
   const headerContent = (
     <Fragment>
-      <div className="navbar-brand w-100">
-        {/* <NextLink href="/" title={<img alt="logo" src={`/img/${logo}.png`} srcSet={`/img/${logo}@2x.png 2x`} />} /> */}
-        <h2>VisonVertex</h2>
+      <div className="navbar-brand w-100 ">
+        <NextLink href="/" 
+        title={<img alt="logo" 
+        width={'70%'} 
+         src={`/img/myLogo/logo6.png`} 
+         style={{marginTop:'-.5rem'}}
+         
+         />
+         
+         }   />
+         {/* <div className=' p-2 pt-3 rounded shadow-sm'>
+         <img alt="logo" 
+        width={'100%'} 
+         src={`/img/myLogo/logo6.png`} 
+         style={{marginTop:'-.5rem'}}
+         
+         />
+         </div> */}
+        {/* <h2>VisonVertex</h2> */}
       </div>
 
       <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
@@ -82,7 +98,7 @@ const Navbar: FC<NavbarProps> = (props) => {
           <ul className="navbar-nav">
             {/* ===================== Home nav item ===================== */}
             <li className="nav-item dropdown dropdown-mega">
-              <ListItemLink title={'Home'} href='/' />
+              <ListItemLink title={'Home'} href="/" />
             </li>
 
             {/*  ===================== Services nav item  ===================== */}
@@ -91,29 +107,25 @@ const Navbar: FC<NavbarProps> = (props) => {
 
               <ul className="dropdown-menu">
                 {ourServies.map(({ id, title, url }) => {
-                  return (
-                    <ListItemLink key={id} href={url} title={title} linkClassName="dropdown-item" />
-                  );
+                  return <ListItemLink key={id} href={url} title={title} linkClassName="dropdown-item" />;
                 })}
               </ul>
             </li>
 
             {/* ===================== projects nav item  ===================== */}
             <li className="nav-item dropdown">
-             <ListItemLink title={'Projects'} href='/projects'/>
+              <ListItemLink title={'Projects'} href="/projects" />
             </li>
 
             {/* ===================== About Us nav item ===================== */}
             <li className="nav-item dropdown">
-             <ListItemLink title={'About Us'} href='/about-us'/>
+              <ListItemLink title={'About Us'} href="/about-us" />
             </li>
 
             {/* ===================== Contact us nav item ===================== */}
             <li className="nav-item dropdown">
-             <ListItemLink title={'Contact'} href='/contact'/>
+              <ListItemLink title={'Contact'} href="/contact" />
             </li>
-
-            
           </ul>
 
           {/* ============= show contact info in the small device sidebar ============= */}

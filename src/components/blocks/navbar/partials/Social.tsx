@@ -4,8 +4,8 @@ import React from 'react';
 const Social = () => {
   return (
     <div className="social-container"> {/* Wrap in a container */}
-      <li className="nav-item">
-        <nav className="nav social social justify-content-end text-end">
+      <li className="nav-item mr-lg-10">
+        <nav className="nav social social justify-content-end ">
           <a href="#">
             <i className="uil uil-twitter" />
           </a>
@@ -18,9 +18,9 @@ const Social = () => {
             <i className="uil uil-linkedin" />
           </a>
 
-          {/* <a href="#">
+          <a href="#">
             <i className="uil uil-instagram" />
-          </a> */}
+          </a>
         </nav>
       </li>
     </div>
