@@ -20,7 +20,7 @@ const Services10: FC = () => {
                   url="#"
                   icon="uil-monitor"
                   title="Web Development"
-                  description="From the first line of code to the final user test, our web development process ensures a seamless, responsive, and unforgettable user experience."
+                  description="Our web development process promises a seamless, adaptive, and unforgettable user experience."
                 />
               </div>
             </div>
@@ -40,7 +40,7 @@ const Services10: FC = () => {
                   title="Mobile App Development"
                   icon="uil-mobile-android"
                   className="card shadow-lg mb-md-6 mt-lg-6"
-                  description="Transform your idea into a powerful mobile application. We harness the latest technologies to deliver apps that are intuitive, efficient, and aesthetically pleasing."
+                  description="Transform your idea into a powerful mobile application."
                 />
               </div>
             </div>

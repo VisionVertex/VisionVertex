@@ -22,7 +22,7 @@ const ServiceCard5: FC<ServiceCardProps> = (props) => {
         </div>
 
         <h4>{title}</h4>
-        <p className="mb-2">{description}</p>
+        <p className="mb-2 card-text text-center">{description}</p>
         <NextLink title="Learn More" href={url} className="more hover link-purple" />
       </div>
     </div>

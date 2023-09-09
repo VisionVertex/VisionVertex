@@ -12,7 +12,7 @@ const Hero7: FC = () => {
               Creative. Smart. Awesome.
             </h2>
 
-            <p className="lead fs-24 lh-sm px-md-5 px-xl-15 px-xxl-10 mb-7" style={zoomInAnimate('500ms')}>
+            <p className="lead fs-20 lh-sm px-md-5 px-xl-15 px-xxl-10 mb-7" style={zoomInAnimate('500ms')}>
             At VisionVertex, innovation is our language. With a team bursting with fresh talent and enthusiasm, we architect digital solutions that stand out, inspire, and make a lasting impact. Your vision, magnified by our expertise.
             </p>
           </div>
