@@ -7,8 +7,8 @@ type SocialLinksProps = { className?: string };
 const links = [
   { id: 1, icon: 'uil uil-twitter', url: 'https://twitter.com/uilibofficial' },
   { id: 2, icon: 'uil uil-facebook-f', url: 'https://facebook.com/uiLibOfficial/' },
-  { id: 3, icon: 'uil uil-linkedin', url: '#' },
-  { id: 4, icon: 'uil uil-instagram', url: 'https://www.instagram.com/uilibofficial/' },
+  { id: 3, icon: 'uil uil-linkedin', url: 'https://www.linkedin.com/in/visionvertex-it-services-931553289/' },
+  { id: 4, icon: 'uil uil-instagram', url: 'https://www.instagram.com/visionvertex_it_services/' },
   // { id: 5, icon: 'uil uil-youtube', url: 'https://www.youtube.com/channel/UCsIyD-TSO1wQFz-n2Y4i3Rg' }
 ];
 

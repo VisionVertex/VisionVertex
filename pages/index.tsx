@@ -4,7 +4,7 @@ import { Fragment } from 'react';
 import { Hero7 } from 'components/blocks/hero';
 import { Facts6 } from 'components/blocks/facts';
 import { Navbar } from 'components/blocks/navbar';
-import { Footer3 } from 'components/blocks/footer';
+import { Footer3, Footer8 } from 'components/blocks/footer';
 import { Services10 } from 'components/blocks/services';
 import { About7, About8 } from 'components/blocks/about';
 import { Portfolio2 } from 'components/blocks/portfolio';
@@ -61,7 +61,7 @@ const Home: NextPage = () => {
       </main>
 
       {/* ========== footer section ========== */}
-      <Footer3 hiddenNewsletter={true} />
+      <Footer8  />
     </Fragment>
   );
 };

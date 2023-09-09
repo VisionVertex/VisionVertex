@@ -13,10 +13,10 @@ const Footer8: FC = () => {
         <div className="row gy-6 gy-lg-0">
           <div className="col-md-4 col-lg-3">
             <div className="widget">
-              <img className="mb-4" src="/img/logo-light.png" srcSet="/img/logo-light@2x.png 2x" alt="" />
+              <img width={"170rem"} className="mb-4  " src="/img/myLogo/logo5.png" srcSet="/img/logo-light@2x.png 2x" alt="" />
 
               <p className="mb-4">
-                © 2022 Sandbox. <br className="d-none d-lg-block" />
+                © 2023 VisionVertex. <br className="d-none d-lg-block" />
                 All rights reserved.
               </p>
 
@@ -27,9 +27,9 @@ const Footer8: FC = () => {
           <div className="col-md-4 col-lg-3">
             <div className="widget">
               <h4 className="widget-title text-white mb-3">Get in Touch</h4>
-              <address className="pe-xl-15 pe-xxl-17">Moonshine St. 14/05 Light City, London, United Kingdom</address>
-              <NextLink title="info@email.com" href="mailto:#" />
-              <br /> 00 (123) 456 78 90
+              <address className="pe-xl-15 pe-xxl-17"> Prayagraj,Uttar Pradesh,India</address>
+              <NextLink title="info@visionvertex.com" href="mailto:info@visionvertex.com" />
+              <br /> +91 8081100169
             </div>
           </div>
 
@@ -47,11 +47,11 @@ const Footer8: FC = () => {
           </div>
 
           <div className="col-md-12 col-lg-3">
-            <div className="widget">
-              <h4 className="widget-title text-white mb-3">Our Newsletter</h4>
-              <p className="mb-5">Subscribe to our newsletter to get our news &amp; deals delivered to you.</p>
+            <div className="widget ">
+              <h4 className="widget-title text-white mb-3">Join Us</h4>
+              <p className="mb-5">We have considered our business solutions to support you on every stage of your growth.</p>
 
-              <div className="newsletter-wrapper">
+              {/* <div className="newsletter-wrapper">
                 <div id="mc_embed_signup2">
                   <form
                     method="post"
@@ -94,7 +94,7 @@ const Footer8: FC = () => {
                     </div>
                   </form>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
