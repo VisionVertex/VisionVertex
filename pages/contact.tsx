@@ -117,7 +117,7 @@ const ContactTwo: NextPage = () => {
       </main>
 
       {/* ========== footer section ========== */}
-      <Footer3 hiddenNewsletter={true} />
+      <Footer8 />
     </Fragment>
   );
 };
