@@ -116,7 +116,9 @@ const Navbar: FC<NavbarProps> = (props) => {
             <li className="nav-item dropdown">
               <ListItemLink title={'Projects'} href="/projects" />
             </li>
-
+            <li className="nav-item dropdown">
+              <ListItemLink title={'About Us'} href="/about-us" />
+            </li>
             {/* ===================== About Us nav item ===================== */}
             <li className="nav-item dropdown">
               <ListItemLink title={'About Us'} href="/about-us" />
