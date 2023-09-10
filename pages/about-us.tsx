@@ -22,6 +22,7 @@ import { testimonialList2 } from 'data/testimonial-list';
 import Code from 'icons/solid-mono/Code';
 import SeoTwo from 'icons/solid/SeoTwo';
 import Devices from 'icons/solid-mono/Devices';
+import GlobeTwo from 'icons/solid-mono/GlobeTwo';
 const serviceList2 = [
   {
     id: 1,
@@ -38,12 +39,12 @@ const serviceList2 = [
   {
     id: 3,
     title: 'Python Development',
-    Icon: <SettingsThree />,
+    Icon: <Code />,
     description: `Elevate your business with VisionVertex's Python expertise. From crafting desktop apps to automated testing and web solutions, our Python prowess delivers innovation and efficiency.`
   },
   {
     id: 4,
-    Icon: <SeoTwo/>,
+    Icon: <GlobeTwo/>,
     title: 'SEO & Digital Marketing',
     description: `Increase your brand's digital footprint. Our marketing strategies are data-driven, ensuring your brand reaches its target audience effectively and climbs the search engine ranks.`
   }
@@ -242,7 +243,7 @@ const AboutTwo: NextPage = () => {
       </main>
 
       {/* ========== footer section ========== */}
-      <Footer3 hiddenNewsletter={true} />
+      <Footer8  />
     </Fragment>
   );
 };
