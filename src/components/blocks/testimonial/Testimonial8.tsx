@@ -4,13 +4,13 @@ import { TestimonialCard3 } from 'components/reuseable/testimonial-cards';
 import useIsotope from 'hooks/useIsotope';
 // -------- data -------- //
 import { testimonialList } from 'data/demo-7';
-import { ClientFeedbackTypes } from '../../../../pages/projects/project.types';
 import { getClientFeedbacks } from '../../../../service/api/api';
+import { ClientFeedbackTypes } from '../../../../types/project.types';
 
 const Testimonial8 = () => {
   const [clientFeedback,setClientFeedback] =useState<ClientFeedbackTypes[]|undefined>(undefined)
   // used for masonry layout
-  useIsotope();
+  // useIsotope();
   useEffect(()=>{
     if(clientFeedback==undefined){
       getClientFeedbacks().then((res)=>{
@@ -23,7 +23,7 @@ const Testimonial8 = () => {
   },[clientFeedback])
 console.log('cliend feedback state',clientFeedback)
   return (
-    <div className='mb-20'>
+    <div style={{marginBottom:'5rem'}}>
       <h2 className="display-4 text-center mb-8">Happy Customers</h2>
 
       <div className="grid">

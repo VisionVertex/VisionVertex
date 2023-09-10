@@ -5,7 +5,7 @@ import NextLink from 'components/reuseable/links/NextLink';
 // -------- data -------- //
 import { carouselImages } from 'data/demo-7';
 import { getHomePageSliderImages } from '../../../../service/api/api';
-import { StrapiArrayImageData, StrapiImageData } from '../../../../pages/projects/project.types';
+import { StrapiImageData } from '../../../../types/project.types';
 
 const Portfolio2 = () => {
   const [sliderImages, setSliderImages] = useState<StrapiImageData[] | undefined>(undefined);
