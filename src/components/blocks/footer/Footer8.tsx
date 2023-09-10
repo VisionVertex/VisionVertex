@@ -13,7 +13,7 @@ const Footer8: FC = () => {
         <div className="row gy-6 gy-lg-0">
           <div className="col-md-4 col-lg-3">
             <div className="widget">
-              <img width={"170rem"} className="mb-4  " src="/img/myLogo/logo5.png" srcSet="/img/logo-light@2x.png 2x" alt="" />
+              <img width={"170rem"} className="mb-4  " src="/img/myLogo/logo5.png" srcSet="/img/myLogo/logo5.png" alt="" />
 
               <p className="mb-4">
                 © 2023 VisionVertex. <br className="d-none d-lg-block" />
