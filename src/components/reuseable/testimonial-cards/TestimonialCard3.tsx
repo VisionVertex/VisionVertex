@@ -25,7 +25,7 @@ const TestimonialCard3: FC<TestimonialCard3Props> = (props) => {
 
           <div className="blockquote-details">
             <figure className="rounded-circle w-12 overflow-hidden">
-              <Image width={100} height={100} src={image} alt="team" style={{ width: '100%', height: 'auto' }} />
+              <img width={100} height={100} src={image} alt="team" style={{ width: '100%', height: 'auto' }} />
             </figure>
 
             <div className="info">

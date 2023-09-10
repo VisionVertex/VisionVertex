@@ -39,7 +39,22 @@ export type ImageFormat ={
     attributes: StrapiImageAttributes;
   }
   export  type StrapiArrayImageData=StrapiImageData[]
-  export type StrapiResponse= {
+  export type StrapiImageResponse= {
     data: StrapiImageData;
+  }
+  export type ClientFeedbackTypes={
+    id:number;
+    attributes:{
+        name:string;
+        designation:string|null;
+        feedback:string;
+        rating:string;
+        createdAt:string;
+        updatedAt:string;
+        publishedAt:string;
+        clientPicture:StrapiImageResponse
+
+    }
+
   }
   
