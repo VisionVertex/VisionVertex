@@ -57,7 +57,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         {/* Open Graph meta tags for social sharing */}
         <meta property="og:title" content="IT Solutions - VisionVertex" />
         <meta property="og:description" content="Providing cutting-edge IT solutions for businesses and individuals." />
-        <meta property="og:image" content="/img/myLogo/logo2.png" /> {/* Replace with your company's logo image URL */}
+        {/* Replace with your company's logo image URL */}
+        <meta property="og:image" content="/img/myLogo/logo2.png" />
+        <meta property="og:image:secure_url" content="/img/myLogo/logo2.png"/>
+
+               <meta property="og:image" content="/img/myLogo/logo2.png"/>
         <meta property="og:image:width" content="1200" /> {/* Replace with the width of your logo image */}
         <meta property="og:image:height" content="630" /> {/* Replace with the height of your logo image */}
         <meta property="og:url" content="http://visionvertex.com" /> {/* Replace with your website URL */}
