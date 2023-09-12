@@ -22,9 +22,10 @@ const ContactTwo: NextPage = () => {
       {/* ========== header section ========== */}
       <header className="wrapper bg-soft-primary">
         <Navbar
-        social
-          // language
-          // button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
+          fancy
+          social
+          logoAlt="logo-purple"
+          navClassName="navbar navbar-expand-lg fancy navbar-light navbar-bg-light caret-none"
         />
       </header>
 

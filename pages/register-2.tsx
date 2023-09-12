@@ -18,11 +18,10 @@ const Register: NextPage = () => {
       {/* ========== header section ========== */}
       <header className="wrapper bg-soft-primary">
         <Navbar
-          language
-          stickyBox={false}
-          logoAlt="logo-light"
-          navClassName="navbar navbar-expand-lg center-nav transparent position-absolute navbar-dark"
-          button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
+          fancy
+          social
+          logoAlt="logo-purple"
+          navClassName="navbar navbar-expand-lg fancy navbar-light navbar-bg-light caret-none"
         />
       </header>
 

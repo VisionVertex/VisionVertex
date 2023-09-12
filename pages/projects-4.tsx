@@ -108,31 +108,27 @@ const ProjectsFour: NextPage = () => {
 
   return (
     <Fragment>
-      <PageProgress />
-
-      {/* ========== header section ========== */}
-      <header className="wrapper bg-light">
-        <Navbar
+    {/* ========== header section ========== */}
+    <header className="wrapper bg-soft-primary">
+      <Navbar
+        fancy
         social
-          // language
-          // button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
-        />
-      </header>
-
-      <main className="content-wrapper">
-        {/* ========== title section ========== */}
-        <section className="wrapper bg-light">
-          <div className="container pt-10 pt-md-14">
-            <div className="row">
-              <div className="col-md-8 col-lg-7 col-xl-6 col-xxl-5">
-                <h1 className="display-1 mb-3">Projects</h1>
-                <p className="lead fs-lg pe-lg-15 pe-xxl-12">
-                  Check out some of our awesome projects with creative ideas and great design.
-                </p>
-              </div>
+        logoAlt="logo-purple"
+        navClassName="navbar navbar-expand-lg fancy navbar-light navbar-bg-light caret-none"
+      />
+    </header>
+    <main className="content-wrapper">
+      {/* ========== page title section ========== */}
+      <section className="wrapper bg-soft-primary">
+        <div className="container pt-10 pb-0 pt-md-14 pb-md-13 text-center">
+          <div className="row">
+            <div className="col-xl-5 mx-auto mb-6">
+              <h1 className="display-1 mb-3">Projects</h1>
+              <p className="lead mb-0">Check out some of our awesome projects with creative ideas and great design.</p>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
         <section className="wrapper bg-light">
           <div className="container py-14 py-md-16">

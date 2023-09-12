@@ -120,9 +120,9 @@ const Navbar: FC<NavbarProps> = (props) => {
               <ListItemLink title={'About Us'} href="/about-us" />
             </li>
             {/* ===================== About Us nav item ===================== */}
-            <li className="nav-item dropdown">
+            {/* <li className="nav-item dropdown">
               <ListItemLink title={'About Us'} href="/about-us" />
-            </li>
+            </li> */}
 
             {/* ===================== Contact us nav item ===================== */}
             <li className="nav-item dropdown">
