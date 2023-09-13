@@ -13,10 +13,9 @@ const Services8: FC = () => {
       </div>
 
       <div className="col-lg-6">
-        <h2 className="display-4 mb-3">What We Do?</h2>
+        <h2 className="display-4 mb-3">What We Do in Web Devlopment?</h2>
         <p className="lead fs-lg mb-8 pe-xxl-2">
-          The full service we are offering is <span className="underline">specifically</span> designed to meet your
-          business needs and projects.
+        At Visionvertex, we take pride in offering top-notch web development services tailored to meet your unique business needs. With a team of experienced and skilled developers, we specialize in crafting dynamic, responsive, and user-friendly websites and web applications that not only look great but also deliver exceptional performance. Our expertise spans a wide range of technologies and frameworks, ensuring that we can bring your digital vision to life, whether you're looking to create an engaging e-commerce platform, a corporate website, or a custom web-based solution. We are dedicated to staying up-to-date with the latest industry trends and best practices, ensuring that your project benefits from the latest innovations in web development. 
         </p>
 
         <div className="row gx-xl-10 gy-6">

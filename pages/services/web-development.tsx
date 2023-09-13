@@ -58,11 +58,10 @@ const Demo15: NextPage = () => {
           <div className="container py-1 py-md-1">
       
          
-          <div className="container pt-15 pt-md-17 pb-13 pb-md-15 mb-n7 mb-md-n10 mb-lg-n16">
-          <Hero10 />
-        </div>
-
         
+          <div className="container pt-6 pt-md-6 pb-13 pb-md-15 mb-n15">
+          <All.Services8 />
+        </div>
            
              
  
@@ -76,10 +75,8 @@ const Demo15: NextPage = () => {
               <All.Services1 />
         </div>
 
-
-        <div className="container pt-6 pt-md-6 pb-13 pb-md-15 mb-n15">
-          <All.Services8 />
-        </div>
+        {/* <img src="/img/web-image.png"  alt="oracle" /> */}
+       
   {/* ========== our community section ========== */}
   <Contact9 />
 

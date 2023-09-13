@@ -256,7 +256,7 @@ export const serviceList7 = [
     id: 1,
     Icon: Telephone,
     color: color.yellow,
-    title: '24/7 Support',
+    title: 'Developing user freindly Webisite',
     cardColor: 'bg-pale-yellow',
     columnClass: 'col-md-5 offset-md-1 align-self-end',
     description: 'Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta.'
