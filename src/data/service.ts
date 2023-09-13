@@ -99,8 +99,8 @@ export const serviceList2 = [
   {
     id: 1,
     linkUrl: '#',
-    title: '24/7 Support',
-    icon: 'uil-phone-volume',
+    title: 'Developing User freindly website',
+    icon: 'uil-laptop-cloud',
     description: `Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla.`
   },
   {
