@@ -16,8 +16,7 @@ const Hero10: FC = () => {
         />
 
         <figure className="rounded">
-          <img src="/img/oracle-partner-logo.png"  alt="oracle" />
-          <img src="/img/hero/web-image.jpg"  alt="oracle" />
+        <img src="/img/web-image.png"  alt="oracle" />
         </figure>
         
       </div>
