@@ -4,22 +4,22 @@ const images = [
   {
     id: 1,
     className: 'col-md-4 offset-md-2 align-self-end',
-    image: { '1x': '/img/web-image.png', '2x': '/img/photos/g1@2x.jpg 2x' }
+    image: { '1x': '/img/web-image.png' }
   },
   {
     id: 2,
     className: 'col-md-6 align-self-end',
-    image: { '1x': '/img/mobile.png', '2x': '/img/photos/g2@2x.jpg 2x' }
+    image: { '1x': '/img/mobile.png' }
   },
   {
     id: 3,
     className: 'col-md-6 offset-md-1',
-    image: { '1x': '/img/database.png', '2x': '/img/photos/g3@2x.jpg 2x' }
+    image: { '1x': '/img/database.png' }
   },
   {
     id: 4,
     className: 'col-md-4 align-self-start',
-    image: { '1x': '/img/coding.png', '2x': '/img/photos/g4@2x.jpg 2x' }
+    image: { '1x': '/img/coding.png'  }
   }
 ];
 
@@ -29,7 +29,7 @@ const Tiles4: FC = () => {
       {images.map(({ id, className, image }) => (
         <div className={className} key={id}>
           <figure className="rounded">
-            <img src={image['1x']} srcSet={image['2x']} alt="" />
+            <img src={image['1x']}  alt="" />
           </figure>
         </div>
       ))}
