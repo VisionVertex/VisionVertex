@@ -20,7 +20,7 @@ import * as All from 'components/blocks/services';
 import * as Alls from 'components/blocks/faq';
 import * as Allss from 'components/blocks/contact';
 
-const DigitalMaeketting: NextPage = () => {
+const digital: NextPage = () => {
 
   
   return (
@@ -43,7 +43,7 @@ const DigitalMaeketting: NextPage = () => {
         <div className="container pt-10 pb-20 pt-md-14 pb-md-12 text-center">
           <div className="row">
             <div className="col-xl-5 mx-auto mb-6">
-              <h1 className="display-1 mb-3">SEO & Digital Marketing </h1>
+              <h1 className="display-1 mb-3">Web Development </h1>
               <p className="lead mb-0">Your vision. Our vertex. Infinite possibilities.</p>
             </div>
           </div>
@@ -58,11 +58,10 @@ const DigitalMaeketting: NextPage = () => {
           <div className="container py-1 py-md-1">
       
          
-          <div className="container pt-15 pt-md-17 pb-13 pb-md-15 mb-n7 mb-md-n10 mb-lg-n16">
-          <Hero10 />
-        </div>
-
         
+          <div className="container pt-6 pt-md-6 pb-13 pb-md-15 mb-n15">
+          <All.Services8 />
+        </div>
            
              
  
@@ -76,10 +75,8 @@ const DigitalMaeketting: NextPage = () => {
               <All.Services1 />
         </div>
 
-
-        <div className="container pt-6 pt-md-6 pb-13 pb-md-15 mb-n15">
-          <All.Services8 />
-        </div>
+        {/* <img src="/img/web-image.png"  alt="oracle" /> */}
+       
   {/* ========== our community section ========== */}
   <Contact9 />
 
@@ -117,4 +114,4 @@ const DigitalMaeketting: NextPage = () => {
   );
 };
 
-export default DigitalMaeketting;
+export default digital;
