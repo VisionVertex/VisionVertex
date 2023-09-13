@@ -43,7 +43,7 @@ const MobileDevelopment: NextPage = () => {
         <div className="container pt-10 pb-20 pt-md-14 pb-md-12 text-center">
           <div className="row">
             <div className="col-xl-5 mx-auto mb-6">
-              <h1 className="display-1 mb-3">Mobile App Development </h1>
+              <h1 className="display-1 mb-3">Mobile APP Development </h1>
               <p className="lead mb-0">Your vision. Our vertex. Infinite possibilities.</p>
             </div>
           </div>
