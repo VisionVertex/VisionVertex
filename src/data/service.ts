@@ -46,12 +46,12 @@ export const ourServies=[
   {
     id:3,
     title:'Python Development',
-    url:'/services/mobile-app-development'
+    url:'/services/python-development'
   },
   {
     id:4,
     title:'SEO & Digital Marketing',
-    url:'/services/mobile-app-development'
+    url:'/services/digital-Marketing-and-seo'
   }
 ]
 // used in the services-1 block
