@@ -75,7 +75,7 @@ const Hero9: FC = () => {
                 <div className="mt-auto" style={zoomInAnimate('300ms')}>
                   <img
                     alt="demo"
-                    src="/img/coding.png"
+                    src="/img/app.jpg"
                     srcSet="/img/photos/sa21@2x.jpg 2x"
                     className="img-fluid rounded shadow-lg"
                   />
