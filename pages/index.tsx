@@ -32,7 +32,7 @@ const Home: NextPage = () => {
       {/* ========== main content ========== */}
       <main className="content-wrapper">
         {/* ========== hero section ========== */}
-        {/* <Hero7 /> */}
+    
     <Hero9 />
 
         <section className="wrapper bg-light">
