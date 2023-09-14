@@ -8,7 +8,7 @@ const Hero9: FC = () => {
   const OPTIONS = {
     loop: true,
     autoStart: true,
-    strings: ['easy usage', 'fast transactions', 'secure payments']
+    strings: ['Creative devlopment', 'Smart devlopment', 'Awesome devlopment']
   };
 
   return (
@@ -17,14 +17,14 @@ const Hero9: FC = () => {
         <div className="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
           <div className="col-md-10 offset-md-1 offset-lg-0 col-lg-5 mt-lg-n2 text-center text-lg-start order-2 order-lg-0">
             <h1 className="display-1 mb-5 mx-md-10 mx-lg-0" style={slideInDownAnimate('600ms')}>
-              Sandbox is effortless and powerful with <br />
+              Vision vertex is effortless and powerful with <br />
               <span className="typer text-primary text-nowrap">
                 <Typewriter options={OPTIONS} />
               </span>
             </h1>
 
             <p className="lead fs-lg mb-7" style={slideInDownAnimate('900ms')}>
-              Achieve your saving goals. Have all your recurring and one time expenses and incomes in one place.
+            At VisionVertex, innovation is our language. With a team bursting with fresh talent and enthusiasm.
             </p>
 
             <div className="d-flex justify-content-center justify-content-lg-start">

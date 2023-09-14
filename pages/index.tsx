@@ -1,7 +1,7 @@
 import { NextPage } from 'next';
 import { Fragment } from 'react';
 // -------- custom component -------- //
-import { Hero7 } from 'components/blocks/hero';
+import { Hero7, Hero9 } from 'components/blocks/hero';
 import { Facts6 } from 'components/blocks/facts';
 import { Navbar } from 'components/blocks/navbar';
 import { Footer3, Footer8 } from 'components/blocks/footer';
@@ -32,7 +32,7 @@ const Home: NextPage = () => {
       {/* ========== main content ========== */}
       <main className="content-wrapper">
         {/* ========== hero section ========== */}
-        <Hero7 />
+        <Hero9 />
 
         <section className="wrapper bg-light">
           <div className="container">
