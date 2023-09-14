@@ -32,7 +32,8 @@ const Home: NextPage = () => {
       {/* ========== main content ========== */}
       <main className="content-wrapper">
         {/* ========== hero section ========== */}
-        <Hero9 />
+        {/* <Hero7 /> */}
+    <Hero9 />
 
         <section className="wrapper bg-light">
           <div className="container">
