@@ -29,11 +29,11 @@ const Hero9: FC = () => {
 
             <div className="d-flex justify-content-center justify-content-lg-start">
               <span style={slideInDownAnimate('1200ms')}>
-                <NextLink title="Get Started" href="#" className="btn btn-lg btn-primary rounded me-2" />
+                <NextLink title="See Project" href="#" className="btn btn-lg btn-primary rounded me-2" />
               </span>
 
               <span style={slideInDownAnimate('1500ms')}>
-                <NextLink title="Free Trial" href="#" className="btn btn-lg btn-green rounded" />
+                <NextLink title="Contact Us" href="#" className="btn btn-lg btn-green rounded" />
               </span>
             </div>
           </div>
@@ -44,7 +44,7 @@ const Hero9: FC = () => {
                 <div className="ms-auto mt-auto" style={zoomInAnimate('300ms')}>
                   <img
                     className="img-fluid rounded shadow-lg"
-                    src="/img/photos/sa20.jpg"
+                    src="/img/heroes3.jpg"
                     srcSet="/img/photos/sa20@2x.jpg 2x"
                     alt="demo"
                   />
@@ -53,7 +53,7 @@ const Hero9: FC = () => {
                 <div className="ms-auto mt-5 mb-10" style={zoomInAnimate('600ms')}>
                   <img
                     className="img-fluid rounded shadow-lg"
-                    src="/img/photos/sa18.jpg"
+                    src="/img/web-image.png"
                     srcSet="/img/photos/sa18@2x.jpg 2x"
                     alt="demo"
                   />
@@ -64,7 +64,7 @@ const Hero9: FC = () => {
                 <div>
                   <img
                     className="w-100 img-fluid rounded shadow-lg"
-                    src="/img/photos/sa16.jpg"
+                    src="/img/heroes2.jpg"
                     srcSet="/img/photos/sa16@2x.jpg 2x"
                     alt="demo"
                   />
@@ -75,16 +75,16 @@ const Hero9: FC = () => {
                 <div className="mt-auto" style={zoomInAnimate('300ms')}>
                   <img
                     alt="demo"
-                    src="/img/photos/sa21.jpg"
+                    src="/img/coding.png"
                     srcSet="/img/photos/sa21@2x.jpg 2x"
                     className="img-fluid rounded shadow-lg"
                   />
                 </div>
 
-                <div className="mt-5" style={zoomInAnimate('600ms')}>
+                <div className="mt-7" style={zoomInAnimate('600ms')}>
                   <img
                     alt="demo"
-                    src="/img/photos/sa19.jpg"
+                    src="/img/heroes.jpg"
                     srcSet="/img/photos/sa19@2x.jpg 2x"
                     className="img-fluid rounded shadow-lg"
                   />
@@ -93,7 +93,7 @@ const Hero9: FC = () => {
                 <div className="mt-5 mb-10" style={zoomInAnimate('900ms')}>
                   <img
                     alt="demo"
-                    src="/img/photos/sa17.jpg"
+                    src="/img/heroes4.jpg"
                     srcSet="/img/photos/sa17@2x.jpg 2x"
                     className="img-fluid rounded shadow-lg"
                   />
