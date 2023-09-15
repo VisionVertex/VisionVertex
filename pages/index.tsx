@@ -23,9 +23,11 @@ const Home: NextPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>IT Solutions - VisionVertex</title>
         <meta name="description" content="Providing cutting-edge IT solutions for businesses and individuals." />
+     
+
         <meta name="keywords" content="IT solutions, technology, software, consulting" />
         <meta name="author" content="VisionVertex" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index" />
         <meta name="theme-color" content="#007bff" />
 
         {/* Open Graph meta tags for social sharing */}

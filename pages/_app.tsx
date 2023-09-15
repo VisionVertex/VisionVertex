@@ -53,7 +53,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="author" content="VisionVertex" />
         <meta name="robots" content="index, follow" />
         <meta name="theme-color" content="#007bff" />
-
+        <meta name="google-site-verification" content="zXqzAkOCf4pTrIzVknRoQqNygbqPcIRRRiglP2kL5Vo" />
         {/* Open Graph meta tags for social sharing */}
         <meta property="og:title" content="IT Solutions - VisionVertex" />
         <meta property="og:description" content="Providing cutting-edge IT solutions for businesses and individuals." />
