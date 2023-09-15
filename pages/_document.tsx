@@ -6,6 +6,7 @@ export default class SandBox extends Document {
       <Html lang="en">
         <Head>
           <link rel="shortcut icon" href="/img/myLogo/logo2.png" type="image/png" />
+          
         </Head>
 
         <body>
