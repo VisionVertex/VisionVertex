@@ -64,7 +64,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         <meta property="og:image" content="https://visionvertex.com/img/myLogo/logo2.png" />
 
-        <meta property="og:image:width" content="1200" /> {/* Replace with the width of your logo image */}
+        <meta property="og:image:width" content="120" /> {/* Replace with the width of your logo image */}
         <meta property="og:image:height" content="630" /> {/* Replace with the height of your logo image */}
         <meta property="og:url" content="http://visionvertex.com" /> {/* Replace with your website URL */}
         <meta property="og:type" content="website" />
