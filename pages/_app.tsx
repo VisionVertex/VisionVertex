@@ -4,7 +4,22 @@ import type { AppProps } from 'next/app';
 import { Fragment, useEffect, useState } from 'react';
 import ThemeProvider from 'theme/ThemeProvider';
 
-// Add your other import statements here
+// animate css
+import 'animate.css';
+// import swiper css
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/thumbs';
+// video player css
+import 'plyr-react/plyr.css';
+// glightbox css
+import 'glightbox/dist/css/glightbox.css';
+// custom scrollcue css
+import 'plugins/scrollcue/scrollCue.css';
+// Bootstrap and custom scss
+import 'assets/scss/style.scss';
 
 function MyApp({ Component, pageProps }: AppProps) {
   const { pathname } = useRouter();
@@ -44,7 +59,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:description" content="Providing cutting-edge IT solutions for businesses and individuals." />
         {/* Replace with your company's logo image URL */}
         <meta property="og:image" content="/img/myLogo/logo2.png" />
-        <meta property="og:image:secure_url" content="/img/myLogo/logo2.png" />
+        <meta property="og:image:secure_url" content="/img/myLogo/logo2.png"/>
+
+               <meta property="og:image" content="/img/myLogo/logo2.png"/>
         <meta property="og:image:width" content="1200" /> {/* Replace with the width of your logo image */}
         <meta property="og:image:height" content="630" /> {/* Replace with the height of your logo image */}
         <meta property="og:url" content="http://visionvertex.com" /> {/* Replace with your website URL */}
@@ -56,24 +73,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="twitter:description" content="Providing cutting-edge IT solutions for businesses and individuals." />
         <meta name="twitter:image" content="/img/myLogo/logo2.png" /> {/* Replace with your company's logo image URL */}
         <meta name="twitter:creator" content="@VisionVertex" /> {/* Replace with your Twitter handle */}
-        
-        {/* Additional SEO-related meta tags */}
-        <meta name="google-site-verification" content="YOUR_GOOGLE_SITE_VERIFICATION_CODE" />
-        <meta name="msvalidate.01" content="YOUR_BING_SITE_VERIFICATION_CODE" />
-        
-        {/* Structured data for SEO */}
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "http://schema.org",
-              "@type": "Organization",
-              "name": "VisionVertex",
-              "url": "http://visionvertex.com",
-              "logo": "http://visionvertex.com/img/myLogo/logo2.png",
-              "description": "Providing cutting-edge IT solutions for businesses and individuals."
-            }
-          `}
-        </script>
       </Head>
 
       <ThemeProvider>
