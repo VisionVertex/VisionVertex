@@ -52,6 +52,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="keywords" content="IT solutions, technology, software, consulting" />
         <meta name="author" content="VisionVertex" />
         <meta name="robots" content="index, follow" />
+  
         <meta name="theme-color" content="#007bff" />
         <meta name="google-site-verification" content="zXqzAkOCf4pTrIzVknRoQqNygbqPcIRRRiglP2kL5Vo" />
         {/* Open Graph meta tags for social sharing */}
@@ -61,7 +62,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:image" content="/img/myLogo/logo2.png" />
         <meta property="og:image:secure_url" content="/img/myLogo/logo2.png"/>
 
-               <meta property="og:image" content="/img/myLogo/logo2.png"/>
+        <meta property="og:image" content="https://visionvertex.com/img/myLogo/logo2.png" />
+
         <meta property="og:image:width" content="1200" /> {/* Replace with the width of your logo image */}
         <meta property="og:image:height" content="630" /> {/* Replace with the height of your logo image */}
         <meta property="og:url" content="http://visionvertex.com" /> {/* Replace with your website URL */}
