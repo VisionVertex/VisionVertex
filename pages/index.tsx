@@ -5,7 +5,7 @@ import { Hero7, Hero9 } from 'components/blocks/hero';
 import { Facts6 } from 'components/blocks/facts';
 import { Navbar } from 'components/blocks/navbar';
 import { Footer3, Footer8 } from 'components/blocks/footer';
-import { Services1, Services10 } from 'components/blocks/services';
+import { Services1, Services10, Services20 } from 'components/blocks/services';
 import { About7, About8 } from 'components/blocks/about';
 import { Portfolio2 } from 'components/blocks/portfolio';
 import { Testimonial8 } from 'components/blocks/testimonial';
@@ -20,9 +20,9 @@ const Home: NextPage = () => {
       <PageProgress />
 
       {/* ========== header ========== */}
-      <header className="wrapper bg-soft-primary">
+      <header className="wrapper bg-soft-light">
         <Navbar
-          fancy
+          // fancy
           social
           logoAlt="logo-purple"
           navClassName="navbar navbar-expand-lg fancy navbar-light navbar-bg-light caret-none"
@@ -33,13 +33,13 @@ const Home: NextPage = () => {
       <main className="content-wrapper">
         {/* ========== hero section ========== */}
         {/* <Hero7 /> */}
-    <Hero9 />
+        <Hero9 />
 
         <section className="wrapper bg-light">
           <div className="container">
             {/* ========== what we do section ========== */}
           
-            <Services10 />
+            <Services20 />
 
             {/* ========== join our community section ========== */}
             <Facts6 />
@@ -49,12 +49,12 @@ const Home: NextPage = () => {
           <Portfolio2 />
         </section>
 
-        <section className="wrapper bg-light">
+        <section className="wrapper bg-soft-blue">
 
 
             
     
-          <div className="container pb-8 pb-lg-10">
+          <div className="container pb-8 pb-lg-10 ">
             {/* ========== have perfect section ========== */}
             {/* <About8 /> */}
 
@@ -64,9 +64,9 @@ const Home: NextPage = () => {
             {/* ========== happy customer section ========== */}
             <Testimonial8  />
 
-            <div className="container pt-15 pt-md-17 pb-13 pb-md-15">
+            {/* <div className="container pt-15 pt-md-17 pb-13 pb-md-15">
           <FAQ1 />
-        </div>
+        </div> */}
           </div>
         </section>
       </main>

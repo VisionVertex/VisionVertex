@@ -29,6 +29,8 @@ import SettingsThree from 'icons/lineal/SettingsThree';
 import CloudComputing from 'icons/lineal/CloudComputing';
 import { LinkType } from 'types/demo-1';
 import color from 'utils/color';
+import Code from 'icons/solid-mono/Code';
+import SeoTwo from 'icons/solid/SeoTwo';
 
 
 //custom services 
@@ -352,44 +354,44 @@ export const serviceList10 = [
     id: 1,
     linkUrl: '#',
     Icon: Script,
-    title: 'Software & Integration',
-    description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    title: 'Web Development',
+    description: `From the first line of code to the final user test, our web development process ensures a seamless, responsive, and unforgettable user experience.`
   },
   {
     id: 2,
     linkUrl: '#',
-    Icon: Verify,
-    title: 'Network Security',
-    description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    Icon:Script,
+    title: 'Mobile App Development',
+    description: `Transform your idea into a powerful mobile application. We harness the latest technologies to deliver apps that are intuitive, efficient, and aesthetically pleasing`
   },
   {
     id: 3,
     linkUrl: '#',
-    Icon: CloudNetwork,
-    title: 'Cloud Services',
-    description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    Icon: Script,
+    title: 'Python Development',
+    description: `Elevate your business with VisionVertex's Python expertise. From crafting desktop apps to automated testing and web solutions, our Python prowess delivers innovation and efficiency`
   },
   {
     id: 4,
     linkUrl: '#',
-    Icon: Director,
-    title: 'Wireless Networking',
-    description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    Icon: SeoTwo,
+    title: 'SEO & Digital Marketing',
+    description: `Increase your brand's digital footprint. Our marketing strategies are data-driven, ensuring your brand reaches its target audience effectively and climbs the search engine ranks.`
   },
-  {
-    id: 5,
-    linkUrl: '#',
-    Icon: Setting,
-    title: 'IT Solutions',
-    description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
-  },
-  {
-    id: 6,
-    linkUrl: '#',
-    Icon: Server,
-    title: 'Server Configuration',
-    description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
-  }
+  // {
+  //   id: 5,
+  //   linkUrl: '#',
+  //   Icon: Setting,
+  //   title: 'IT Solutions',
+  //   description: `We also help to build customized desktop application with the power of python.`
+  // },
+  // {
+  //   id: 6,
+  //   linkUrl: '#',
+  //   Icon: Server,
+  //   title: 'Server Configuration',
+  //   description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+  // }
 ];
 
 // used in the services-21 block
