@@ -17,11 +17,11 @@ const Hero1: FC = () => {
           </div>
 
           <div className="col-md-10 offset-md-1 offset-lg-0 col-lg-5 text-center text-lg-start">
-            <h1 className="display-1 mb-5 mx-md-n5 mx-lg-0">Grow Your Business with Our Solutions.</h1>
+            <h1 className="display-4 mb-5 mx-md-n5 mx-lg-0">SEO & Digital Marketing</h1>
             <p className="lead fs-lg mb-7">
               We help our clients to increase their website traffic, rankings and visibility in search results.
             </p>
-            <a className="btn btn-primary rounded-pill me-2">Try It For Free</a>
+            {/* <a className="btn btn-primary rounded-pill me-2">Try It For Free</a> */}
           </div>
         </div>
       </div>
