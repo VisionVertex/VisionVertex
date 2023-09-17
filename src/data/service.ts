@@ -31,6 +31,16 @@ import { LinkType } from 'types/demo-1';
 import color from 'utils/color';
 import Code from 'icons/solid-mono/Code';
 import SeoTwo from 'icons/solid/SeoTwo';
+import Bulb from 'icons/solid-mono/Bulb';
+import LightBulb from 'icons/lineal/LightBulb';
+import Rocket from 'icons/solid/Rocket';
+import RocketTwo from 'icons/lineal/RocketTwo';
+import Puzzle from 'icons/solid-mono/Puzzle';
+import Shipment from 'icons/solid-mono/Shipment';
+import TargetTwo from 'icons/solid-duo/TargetTwo';
+import CloudGroup from 'icons/solid-duo/CloudGroup';
+import PenTool from 'icons/solid-duo/PenTool';
+import BarChartTwo from 'icons/solid-duo/BarChartTwo';
 
 
 //custom services 
@@ -164,39 +174,39 @@ export const serviceList3 = [
 export const serviceList4 = [
   {
     id: 1,
-    Icon: Telephone,
-    title: '24/7 Support',
-    description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    Icon: Director,
+    title: 'Discovery & Planning',
+    description: `This phase involves engaging closely with clients to grasp their vision, evaluating the project's feasibility, and carving out a comprehensive strategy. Through understanding both business and user needs, we determine a project's scope, timeline, and required resources.`
   },
   {
     id: 2,
-    Icon: Shield,
-    title: 'Secure Payments',
-    description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    Icon: Bulb,
+    title: 'Design & Prototyping',
+    description: `Emphasizing a user-first approach, our team crafts intuitive designs tailored to enhance user engagement. By developing interactive prototypes, clients can visualize and feel the final product, facilitating iterative feedback before the actual build process begins.`
   },
   {
     id: 3,
-    Icon: CloudComputing,
-    title: 'Daily Updates',
-    description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    Icon:Script ,
+    title: 'Development',
+    description: `Leveraging the latest in technological frameworks and best practices, our adept developers translate designs into functional web solutions. This phase ensures efficient, clean, and modular code, leading to robust web services optimized for performance.`
   },
   {
     id: 4,
-    Icon: Analytics,
-    title: 'Market Research',
-    description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    Icon: PenTool,
+    title: 'Testing & QA',
+    description: `Before any product sees the light of day, it undergoes rigorous testing. This includes functional checks, performance evaluations, and security audits. Our meticulous quality assurance process ensures that the web service functions flawlessly across different devices and browsers, guaranteeing a consistent user experience.`
   },
   {
     id: 5,
-    Icon: Settings,
-    title: 'System Integration',
-    description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    Icon: CloudNetwork,
+    title: 'Deployment',
+    description: `Beyond just launching the web service, this phase involves a well-orchestrated plan ensuring smooth transitions. Utilizing best practices, we focus on scalability to handle future growth, resilience against potential outages, and ensuring optimal performance during peak user interactions.`
   },
   {
     id: 6,
-    Icon: Earth,
-    title: 'SEO Services',
-    description: `Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam quis risus eget.`
+    Icon: Setting,
+    title: 'Maintenance & Updates',
+    description: ` The digital world is ever-evolving, and so are our services. We provide ongoing technical support, adapting to user feedback, and integrating emerging technologies. This continuous refinement guarantees that our web services not only meet but often exceed modern standards and user expectations.`
   }
 ];
 
