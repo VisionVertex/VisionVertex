@@ -31,7 +31,7 @@ const mobiledev: NextPage = () => {
       
       <header className="wrapper bg-soft-primary">
       <Navbar
-        fancy
+        // fancy
         social
         logoAlt="logo-purple"
         navClassName="navbar navbar-expand-lg fancy navbar-light navbar-bg-light caret-none"
@@ -43,8 +43,8 @@ const mobiledev: NextPage = () => {
         <div className="container pt-10 pb-20 pt-md-14 pb-md-12 text-center">
           <div className="row">
             <div className="col-xl-5 mx-auto mb-6">
-              <h1 className="display-1 mb-3">Web Development </h1>
-              <p className="lead mb-0">Your vision. Our vertex. Infinite possibilities.</p>
+              <h1 className="display-4 mb-3">Mobile App Development </h1>
+              <p className=" mb-0">Transform your idea into a powerful mobile application.</p>
             </div>
           </div>
         </div>

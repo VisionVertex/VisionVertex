@@ -31,7 +31,7 @@ const pythonDev: NextPage = () => {
       
       <header className="wrapper bg-soft-primary">
       <Navbar
-        fancy
+        // fancy
         social
         logoAlt="logo-purple"
         navClassName="navbar navbar-expand-lg fancy navbar-light navbar-bg-light caret-none"
@@ -43,7 +43,7 @@ const pythonDev: NextPage = () => {
         <div className="container pt-10 pb-20 pt-md-14 pb-md-12 text-center">
           <div className="row">
             <div className="col-xl-5 mx-auto mb-6">
-              <h1 className="display-1 mb-3">Web Development </h1>
+              <h1 className="display-3 mb-3">Python Development </h1>
               <p className="lead mb-0">Your vision. Our vertex. Infinite possibilities.</p>
             </div>
           </div>

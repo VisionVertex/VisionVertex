@@ -3,7 +3,7 @@ import { Fragment } from 'react';
 // -------- custom component -------- //
 
 import { Team3, Team6, Team8 } from 'components/blocks/team';
-import { Hero10, Hero15 } from 'components/blocks/hero';
+import { Hero1, Hero10, Hero15 } from 'components/blocks/hero';
 import { About6 } from 'components/blocks/about';
 import { Facts5 } from 'components/blocks/facts';
 import { Navbar } from 'components/blocks/navbar';
@@ -31,7 +31,7 @@ const digital: NextPage = () => {
       
       <header className="wrapper bg-soft-primary">
       <Navbar
-        fancy
+        // fancy
         social
         logoAlt="logo-purple"
         navClassName="navbar navbar-expand-lg fancy navbar-light navbar-bg-light caret-none"
@@ -40,14 +40,15 @@ const digital: NextPage = () => {
     <main className="content-wrapper">
       {/* ========== page title section ========== */}
       <section className="wrapper bg-soft-primary">
-        <div className="container pt-10 pb-20 pt-md-14 pb-md-12 text-center">
+        {/* <div className="container pt-10 pb-20 pt-md-14 pb-md-12 text-center">
           <div className="row">
             <div className="col-xl-5 mx-auto mb-6">
-              <h1 className="display-1 mb-3">Web Development </h1>
+              <h1 className="display-4 mb-3">SEO & Digital Marketing </h1>
               <p className="lead mb-0">Your vision. Our vertex. Infinite possibilities.</p>
             </div>
           </div>
-        </div>
+        </div> */}
+        <Hero1/>
       </section>
       {/* ========== main content ========== */}
    

@@ -25,7 +25,7 @@ const Services5: FC = () => {
           >
             <h3 className="text-white mb-1 mt-n2">
               <span className="counter counter-lg">
-                <CountUp end={20} suffix="+" />
+                <CountUp end={1} suffix="+" />
               </span>
             </h3>
 
@@ -36,12 +36,10 @@ const Services5: FC = () => {
         </div>
 
         <div className="col-lg-6">
-          <h3 className="display-4 mb-5">We bring solutions to make life easier for our customers.</h3>
+          <h3 className="display-6 mb-5">In today's digital evolution, we provide paramount adaptive and dynamic web solutions.</h3>
 
           <p className="mb-7">
-            Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Integer posuere
-            erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper.
-            Vestibulum id ligula.
+          We're a vibrant, youthful team passionately navigating the digital frontier, harnessing the power of groundbreaking technologies like React, Next.js, and Vue.js to sculpt the future of dynamic web experiences.
           </p>
 
           <ListColumn list={aboutList1} />
