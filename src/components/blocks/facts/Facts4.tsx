@@ -14,7 +14,7 @@ const Facts4: FC = () => {
           <div className="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
             <h2 className="fs-15 text-uppercase text-muted mb-3">Join Our Community</h2>
             <h3 className="display-4 mb-8 px-lg-12">
-              We are trusted by over 5000+ clients. Join them now and grow your business.
+              We are trusted by over 5+ clients. Join them now and grow your business.
             </h3>
           </div>
         </div>
@@ -25,7 +25,7 @@ const Facts4: FC = () => {
               {factList3.map(({ id, title, value }) => (
                 <div className="col-md-4 text-center" key={id}>
                   <h3 className="counter counter-lg text-primary">
-                    <ReactCountUp end={value} />
+                    <ReactCountUp end={value} suffix='+' />
                   </h3>
                   <p>{title}</p>
                 </div>

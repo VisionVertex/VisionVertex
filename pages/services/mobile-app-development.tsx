@@ -3,12 +3,12 @@ import { Fragment } from 'react';
 // -------- custom component -------- //
 
 import { Team3, Team6, Team8 } from 'components/blocks/team';
-import { Hero10, Hero15 } from 'components/blocks/hero';
+import { Hero10, Hero15, Hero6 } from 'components/blocks/hero';
 import { About6 } from 'components/blocks/about';
-import { Facts5 } from 'components/blocks/facts';
+import { Facts4, Facts5 } from 'components/blocks/facts';
 import { Navbar } from 'components/blocks/navbar';
 import { Footer8, Footer9 } from 'components/blocks/footer';
-import { Process7 } from 'components/blocks/process';
+import { Process5, Process7, Process8 } from 'components/blocks/process';
 import { Contact7, Contact9 } from 'components/blocks/contact';
 import { CTA5 } from 'components/blocks/call-to-action';
 import { Testimonial5 } from 'components/blocks/testimonial';
@@ -39,12 +39,26 @@ const mobiledev: NextPage = () => {
     </header>
     <main className="content-wrapper">
       {/* ========== page title section ========== */}
-      <section className="wrapper bg-soft-primary">
-        <div className="container pt-10 pb-20 pt-md-14 pb-md-12 text-center">
+      <section 
+       style={{ backgroundImage: 'url(/img/newphotos/app3-min.jpg)',
+       backgroundRepeat:'no-repeat',
+       backgroundSize:"cover",
+       backgroundPosition:'center center',
+        height:'20rem',
+        // width:'100%'
+       //  objectFit:'contain'
+      
+      }}
+      
+      className="wrapper bg-soft-primary mb-5">
+        <div 
+       
+        
+        className="container pt-10 pb-20 pt-md-14 pb-md-12 text-center">
           <div className="row">
             <div className="col-xl-5 mx-auto mb-6">
-              <h1 className="display-4 mb-3">Mobile App Development </h1>
-              <p className=" mb-0">Transform your idea into a powerful mobile application.</p>
+              <h1 className="display-4 mb-3 text-light">Mobile App Development </h1>
+              <p className=" mb-0 text-light">Transform your idea into a powerful mobile application.</p>
             </div>
           </div>
         </div>
@@ -54,31 +68,23 @@ const mobiledev: NextPage = () => {
         {/* ========== hero sections ========== */}
       
 
-        <section className="wrapper bg-light angled lower-end">
+        <section className="wrapper bg-light">
           <div className="container py-1 py-md-1">
       
-         
-        
-          <div className="container pt-6 pt-md-6 pb-13 pb-md-15 mb-n15">
-          <All.Services8 />
-        </div>
-           
-             
+          <Process5 />
  
-            {/* ========== process section ========== */}
-            {/* <Process7 /> */}
           </div>
         </section>
       {/* ========== process section ==========    */}
 
       <div className="pt-10 pt-md-5 pb-10 pb-md-10">
-              <All.Services1 />
+              <Hero6/>
         </div>
 
         {/* <img src="/img/web-image.png"  alt="oracle" /> */}
        
   {/* ========== our community section ========== */}
-  <Contact9 />
+  {/* <Contact9 /> */}
 
         {/* ========== testimonial section ========== */}
         {/* <Testimonial5 /> */}
@@ -98,16 +104,18 @@ const mobiledev: NextPage = () => {
     
        
        
-        <div className="container pt-15 pt-md-17 pb-13 pb-md-15 mb-lg-n22 mb-xl-n24">
+        {/* <div className="container pt-15 pt-md-17 pb-13 pb-md-15 mb-lg-n22 mb-xl-n24">
           <All.Services9 />
         </div>
         <div className="container pt-15 pt-md-17 pb-13 pb-md-15">
           <Alls.FAQ1 />
-        </div>
+        </div> */}
         {/* <div className="pb-13 pb-md-15">
           <Allss.Contact12 />
         </div> */}
-        <CTA5 />
+        {/* <CTA5 /> */}
+        <Facts4/>
+        <Allss.Contact11/>
       {/* ========== footer section ========== */}
       <Footer8 />
     </Fragment>

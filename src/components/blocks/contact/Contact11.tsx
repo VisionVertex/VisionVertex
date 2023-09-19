@@ -33,7 +33,7 @@ const Contact11: FC = () => {
 
           <div>
             <h5 className="mb-0">Address</h5>
-            <address>Moonshine St. 14/05 Light City, London</address>
+            <address>Prayagraj,Uttar Pradesh,India</address>
           </div>
         </div>
 
@@ -57,7 +57,7 @@ const Contact11: FC = () => {
           </div>
           <div>
             <h5 className="mb-0">Phone</h5>
-            <p>00 (123) 456 78 90</p>
+            <p>+91 8081100169</p>
           </div>
         </div>
 
@@ -83,8 +83,8 @@ const Contact11: FC = () => {
           <div>
             <h5 className="mb-0">E-mail</h5>
             <p className="mb-0">
-              <a href="mailto:sandbox@email.com" className="link-body">
-                sandbox@email.com
+              <a href="mailto:info@visionvertex.com" className="link-body">
+                info@visionvertex.com
               </a>
             </p>
           </div>

@@ -1,8 +1,11 @@
 import { FC } from 'react';
 import { fadeInAnimate, slideInDownAnimate } from 'utils/animation';
 import GoogleAppBtn from 'components/common/GoogleAppBtn';
+import useProgressbar from 'hooks/useProgressbar';
+import NextLink from 'components/reuseable/links/NextLink';
 
 const Hero6: FC = () => {
+  useProgressbar();
   return (
     <section className="wrapper bg-soft-primary">
       <div className="container pt-5 pb-15 py-lg-17 py-xl-19 pb-xl-20 position-relative">
@@ -17,14 +20,29 @@ const Hero6: FC = () => {
         <div className="row gx-0 align-items-center">
           <div className="col-md-10 offset-md-1 col-lg-5 offset-lg-7 offset-xxl-6 ps-xxl-12 mt-md-n9 text-center text-lg-start">
             <h1 className="display-2 mb-4 mx-sm-n2 mx-md-0" style={slideInDownAnimate('600ms')}>
-              Get all of your steps, exercise, sleep and meds in one place.
+              We help you to build 
             </h1>
+            <ul className="progress-list">
+              <li>
+                <p>Android Application(Java & Kotlin)</p>
+                <div className="progressbar line blue" data-value="100" />
+              </li>
+              <li>
+                <p>iOS Application (Swift) </p>
+                <div className="progressbar line green" data-value="100" />
+              </li>
+              <li>
+                <p>Cross Platform Application (React Native & Flutter)  </p>
+                <div className="progressbar line red" data-value="100" />
+              </li>
+            
+            </ul>
 
             <p className="lead fs-lg mb-7 px-md-10 px-lg-0" style={slideInDownAnimate('900ms')}>
-              Sandbox is now available to download from both the App Store and Google Play Store.
+              Let's Transform Your Idea Into Mobile Application 
             </p>
 
-            <GoogleAppBtn />
+            <NextLink title="Join Us" href="/contact" className="btn btn-gradient gradient-1 rounded-pill" />
           </div>
         </div>
       </div>

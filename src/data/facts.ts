@@ -21,9 +21,9 @@ export const factList2 = [
 
 // used in the facts-4 block
 export const factList3 = [
-  { id: 1, value: 7518, title: 'Completed Projects' },
-  { id: 2, value: 5472, title: 'Satisfied Customers' },
-  { id: 3, value: 2184, title: 'Expert Employees' }
+  { id: 1, value: 5, title: 'Completed Projects' },
+  { id: 2, value: 4, title: 'Satisfied Customers' },
+  { id: 3, value: 5, title: 'Expert Employees' }
 ];
 
 // used in the facts-5 block
