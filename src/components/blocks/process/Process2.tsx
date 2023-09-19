@@ -18,17 +18,17 @@ const Process2: FC = () => {
         />
 
         <figure className="rounded">
-          <img src="/img/photos/about9.jpg" srcSet="/img/photos/about9@2x.jpg 2x" alt="how-work" />
+          <img src="/img/newphotos/seo2.jpg" srcSet="/img/newphotos/seo2.jpg" alt="how-work" />
         </figure>
       </div>
 
       <div className="col-lg-5 col-xl-4 offset-lg-1">
         <h2 className="display-4 mb-3">How It Works?</h2>
-        <p className="lead fs-lg mb-6">So here are three working steps why our valued customers choose us.</p>
+        <p className="lead fs-lg mb-6">Boost your online presence with our expert SEO strategies. We optimize your content to elevate its search engine rankings, driving more organic traffic to your site <b className='text-dark'>through keyword research, link-building, and advanced on-page techniques</b>, we ensure your business captures and engages its online audience effectively.</p>
 
-        {processList3.map((item) => (
+        {/* {processList3.map((item) => (
           <ProcessList2 {...item} key={item.no} className="icon btn btn-circle btn-primary pe-none me-5" />
-        ))}
+        ))} */}
       </div>
     </div>
   );
