@@ -8,6 +8,9 @@ import Breadcrumb from 'components/reuseable/Breadcrumb';
 import PageProgress from 'components/common/PageProgress';
 import ContactForm from 'components/common/ContactForm';
 import NextLink from 'components/reuseable/links/NextLink';
+import BlogTemplate from 'components/common/BlogTemplate';
+import BlogSidebar from 'data/blog-sidebar';
+import { Services9 } from 'components/blocks/services';
 // -------- data -------- //
 const breadcrumb = [
   { id: 1, title: 'Home', url: '/' },
@@ -104,19 +107,26 @@ const ContactTwo: NextPage = () => {
 
             {/* ========== contact form section ========== */}
             <div className="row">
+            <Services9 />
               <div className="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+            
                 <h2 className="display-4 mb-3 text-center">Drop Us a Line</h2>
                 <p className="lead text-center mb-10">
                   Reach out to us from our contact form and we will get back to you shortly.
                 </p>
-
-                <ContactForm />
+               
               </div>
+              
+              <ContactForm />
+             
+               
             </div>
           </div>
+           
         </div>
+        
       </main>
-
+      
       {/* ========== footer section ========== */}
       <Footer8 />
     </Fragment>
