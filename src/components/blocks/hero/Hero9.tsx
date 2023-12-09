@@ -32,8 +32,7 @@ const Hero9: FC = () => {
             </h1>
 
             <p className="lead fs-lg mb-7" style={slideInDownAnimate('900ms')}>
-            VisionVertex IT Solutions exceeded our expectations with their outstanding work on Staykr.com. Their expertise in JavaScript, Node, and React brought our hotel management project to life. The team's dedication, attention to detail, and commitment to delivering excellence make them a standout choice for any IT project. We are extremely satisfied with the results and look forward to future collaborations.
-
+       At VisionVertex, innovation is our language. With a team bursting with fresh talent and enthusiasm.
             </p>
 
             <div className="d-flex justify-content-center justify-content-lg-start">
