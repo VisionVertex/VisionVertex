@@ -11,10 +11,10 @@ const Services2: FC = () => {
           <div className="col-lg-7 order-lg-2">
             <figure>
               <img
-                className="w-auto"
+                className="w-auto rounded"
                 alt="our solutions"
-                src="/img/illustrations/i8.png"
-                srcSet="/img/illustrations/i8@2x.png 2x"
+                src="/img/newphotos/python.jpg"
+                srcSet="/img/newphotos/python.jpg"
               />
             </figure>
           </div>

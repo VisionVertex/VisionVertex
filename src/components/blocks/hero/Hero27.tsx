@@ -17,14 +17,15 @@ const Hero27: FC = () => {
             data-delay="500"
           >
             <h2 className="display-1 fs-56 mb-4 mt-0 mt-lg-5 ls-xs pe-xl-5 pe-xxl-0">
-              We bring solutions to make life <span className="underline-3 style-3 yellow">easier</span>
+              We transform idea into  <span className="underline-3 style-3 yellow">reality</span>
             </h2>
             <p className="lead fs-23 lh-sm mb-7 pe-lg-5 pe-xl-5 pe-xxl-0">
-              We are a creative company that focuses on long term relationships with customers.
+            VisionVertex specializes in Python development — crafting web solutions, apps,
+            AI and more. Let's bring your ideas to life with efficiency and innovation.
             </p>
 
             <div>
-              <NextLink title="Read More" href="#" className="btn btn-lg btn-primary rounded" />
+              <NextLink title="Contact Us" href="/contact" className="btn btn-lg btn-primary rounded" />
             </div>
           </div>
         </div>
