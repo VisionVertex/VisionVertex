@@ -194,17 +194,6 @@ const ProjectsFour: NextPage = () => {
           </div>
         </section>
       </main>
-      {/* ========== contact form section ========== */}
-      <div className="row">
-        <div className="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-          <h2 className="display-4 mb-3 text-center">Get in Touch</h2>
-          <p className="lead text-center mb-10">
-            Reach out to us from our contact form and we will get back to you shortly.
-          </p>
-
-          <ContactForm />
-        </div>
-      </div>
       {/* ========== footer section ========== */}
       <Footer8 />
     </Fragment>
