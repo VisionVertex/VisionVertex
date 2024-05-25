@@ -1,7 +1,9 @@
 import axios from "axios";
-export const getHomePageSliderImages=()=>{
-    return axios.get(`${process.env.NEXT_PUBLIC_API_URL}/home-page-sliders?populate=*`)
+const BaseUrl=process.env.NEXT_PUBLIC_API_URL;
+ const getHomePageSliderImages=()=>{
+    return axios.get(`${BaseUrl}/home-page-sliders?populate=*`)
 }
-export const getClientFeedbacks=()=>{
-    return axios.get(`${process.env.NEXT_PUBLIC_API_URL}/client-feedbacks?populate=*`)
+ const getClientFeedbacks=()=>{
+    return axios.get(`${BaseUrl}/client-feedbacks?populate=*`)
 }
+export {getHomePageSliderImages,getClientFeedbacks}
