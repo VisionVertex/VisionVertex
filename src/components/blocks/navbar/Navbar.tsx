@@ -96,9 +96,6 @@ const Navbar: FC<NavbarProps> = (props) => {
 
         <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100">
           <ul className="navbar-nav">
-            {/* ===================== Home nav item ===================== */}
-           
-
             {/*  ===================== Services nav item  ===================== */}
             <li className="nav-item dropdown">
               <DropdownToggleLink title="Services" className="nav-link dropdown-toggle" />

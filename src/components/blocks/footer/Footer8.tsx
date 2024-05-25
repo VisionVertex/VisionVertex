@@ -7,6 +7,7 @@ import SocialLinks from 'components/reuseable/SocialLinks';
 import footerNav from 'data/footer';
 
 const Footer8: FC = () => {
+  const curretnYear= new Date().getFullYear();
   return (
     <footer className="bg-dark text-inverse">
       <div className="container py-13 py-md-15">
@@ -16,7 +17,7 @@ const Footer8: FC = () => {
               <img width={"170rem"} className="mb-4  " src="/img/myLogo/logo5.png" srcSet="/img/myLogo/logo5.png" alt="" />
 
               <p className="mb-4">
-                © 2023 VisionVertex. <br className="d-none d-lg-block" />
+                © {curretnYear} VisionVertex. <br className="d-none d-lg-block" />
                 All rights reserved.
               </p>
 
