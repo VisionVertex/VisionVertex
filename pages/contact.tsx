@@ -25,7 +25,6 @@ const ContactTwo: NextPage = () => {
       {/* ========== header section ========== */}
       <header className="wrapper bg-soft-primary">
         <Navbar
-          fancy
           social
           logoAlt="logo-purple"
           navClassName="navbar navbar-expand-lg fancy navbar-light navbar-bg-light caret-none"
