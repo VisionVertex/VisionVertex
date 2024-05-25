@@ -72,7 +72,7 @@ const Navbar: FC<NavbarProps> = (props) => {
         title={<img alt="logo" 
         width={'70%'} 
          src={`/img/myLogo/logo6.png`} 
-         style={{marginTop:'-.5rem'}}
+         style={{marginTop:'-8px'}}
          
          />
          
@@ -81,7 +81,7 @@ const Navbar: FC<NavbarProps> = (props) => {
          <img alt="logo" 
         width={'100%'} 
          src={`/img/myLogo/logo6.png`} 
-         style={{marginTop:'-.5rem'}}
+         style={{marginTop:'-8px'}}
          
          />
          </div> */}
@@ -97,9 +97,7 @@ const Navbar: FC<NavbarProps> = (props) => {
         <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100">
           <ul className="navbar-nav">
             {/* ===================== Home nav item ===================== */}
-            <li className="nav-item dropdown dropdown-mega">
-              <ListItemLink title={'Home'} href="/" />
-            </li>
+           
 
             {/*  ===================== Services nav item  ===================== */}
             <li className="nav-item dropdown">
