@@ -29,7 +29,7 @@ const projectList = [
     category: 'Rental',
     title: 'Room Boking ',
     image: { width: 1300, height: 1262, url: '/img/photos/cs16.jpg' }
-  },
+  }
   // {
   //   id: 2,
   //   link: '/project/2',
@@ -118,27 +118,30 @@ const ProjectsFour: NextPage = () => {
 
   return (
     <Fragment>
-    {/* ========== header section ========== */}
-    <header className="wrapper bg-soft-primary">
-      <Navbar
-        fancy
-        social
-        logoAlt="logo-purple"
-        navClassName="navbar navbar-expand-lg fancy navbar-light navbar-bg-light caret-none"
-      />
-    </header>
-    <main className="content-wrapper">
-      {/* ========== page title section ========== */}
-      <section className="wrapper bg-soft-primary">
-        <div className="container pt-10 pb-0 pt-md-14 pb-md-13 text-center">
-          <div className="row">
-            <div className="col-xl-10 mx-auto mb-6">
-              <h1 className="display-1 mb-3">Projects</h1>
-              <p className="lead mb-0">Explore the showcase of our remarkable projects, each a testament to our team's ingenuity and commitment to excellence. From innovative concepts to captivating designs, our portfolio reflects the creative spirit that drives us. We take pride in delivering solutions that not only meet but exceed expectations, offering a seamless blend of creativity and functionality. Dive into our collection of awesome projects and discover the unique ideas and outstanding designs that set us apart in the ever-evolving landscape of technology and innovation.</p>
+      {/* ========== header section ========== */}
+      <header className="wrapper bg-soft-primary">
+        <Navbar
+          
+          social
+          logoAlt="logo-purple"
+          navClassName="navbar navbar-expand-lg fancy navbar-light navbar-bg-light caret-none"
+        />
+      </header>
+      <main className="content-wrapper">
+        {/* ========== page title section ========== */}
+        <section className="wrapper bg-soft-primary">
+          <div className="container pt-10 pb-0 pt-md-14 pb-md-13 text-center">
+            <div className="row">
+              <div className="col-xl-10 mx-auto mb-6">
+                <h1 className="display-1 mb-3">Projects</h1>
+                <p className="lead mb-0">
+                  Explore our portfolio of innovative projects, showcasing our team's creativity and excellence,
+                  delivering solutions that exceed expectations in technology and design.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
         <section className="wrapper bg-light">
           <div className="container py-14 py-md-16">
@@ -186,23 +189,22 @@ const ProjectsFour: NextPage = () => {
                     </div>
                   </div>
                 ))}
-                
               </div>
             </div>
           </div>
         </section>
       </main>
-  {/* ========== contact form section ========== */}
-  <div className="row">
-              <div className="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-                <h2 className="display-4 mb-3 text-center">Get in Touch</h2>
-                <p className="lead text-center mb-10">
-                  Reach out to us from our contact form and we will get back to you shortly.
-                </p>
+      {/* ========== contact form section ========== */}
+      <div className="row">
+        <div className="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+          <h2 className="display-4 mb-3 text-center">Get in Touch</h2>
+          <p className="lead text-center mb-10">
+            Reach out to us from our contact form and we will get back to you shortly.
+          </p>
 
-                <ContactForm />
-              </div>
-            </div>
+          <ContactForm />
+        </div>
+      </div>
       {/* ========== footer section ========== */}
       <Footer8 />
     </Fragment>
