@@ -57,4 +57,36 @@ export type ImageFormat ={
     }
 
   }
+  //!Strapi Project Language Data type
+export type StrapiLanguageTechType = {
+  id: number;
+  attributes: {
+    technologyName: string;
+    createdAt: string;
+    updatedAt: string;
+    publishedAt: string;
+    technologyLogo: StrapiImageResponse;
+  };
+};
+  export type ProjectAttributes={
+      id:number;
+      attributes:{
+        title:string;
+     slug:string;
+     subTitle:string;
+     category:any;
+     projectTime:string;
+     photos:{data:StrapiArrayImageData}
+     clientName:string;
+     projectBanner:StrapiImageResponse;
+     projectOverview:string
+     technologies:{data:StrapiLanguageTechType[]}
+      }
+  }
   
+  export type PaginationType={
+    page:number;
+    pageSize:number;
+    pageCount:number;
+    total:number;
+}

@@ -27,6 +27,7 @@
     "react-countup": "^6.4.1",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.46.1",
+    "react-markdown": "^9.0.1",
     "react-scroll": "^1.8.9",
     "react-syntax-highlighter": "^15.5.0",
     "scrollcue": "^2.0.0",

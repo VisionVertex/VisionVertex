@@ -5,8 +5,12 @@ import { Navbar } from 'components/blocks/navbar';
 import { Footer8 } from 'components/blocks/footer';
 import FigureImage from 'components/reuseable/FigureImage';
 import NextLink from 'components/reuseable/links/NextLink';
+export type  NotFoundPropsTypes={
+   pageTitle?:string;
+   pageUrl?:string;
 
-const NotFound: NextPage = () => {
+}
+const NotFound = ({pageTitle="Home",pageUrl='/'}:NotFoundPropsTypes) => {
   return (
     <Fragment>
       {/* ========== header section ========== */}
@@ -30,10 +34,10 @@ const NotFound: NextPage = () => {
                 <h1 className="mb-3">Oops! Page Not Found.</h1>
                 <p className="lead mb-7 px-md-12 px-lg-5 px-xl-7">
                   The page you are looking for is not available or has been moved. Try a different page or go to
-                  homepage with the button below.
+                  {` ${pageTitle} `} page with the button below.
                 </p>
 
-                <NextLink title="Go to Homepage" href="/" className="btn btn-primary rounded-pill" />
+                <NextLink title={`Go to ${pageTitle}`} href={pageUrl}className="btn btn-primary rounded-pill" />
               </div>
             </div>
           </div>
