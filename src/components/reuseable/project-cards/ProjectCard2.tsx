@@ -11,9 +11,9 @@ type ProjectCard2Props = {
   imageClassName: string;
   cardStyle?: CSSProperties;
   detailsStyle?: CSSProperties;
-  image_url: string;
-  width:number;
-  height:number;
+  image_url?: string;
+  width?:number;
+  height?:number;
 };
 // ==============================================================================
 
@@ -27,7 +27,7 @@ const ProjectCard2: FC<ProjectCard2Props> = (props) => {
     <div className="project item" >
       <div className="row" >
 
-        <FigureImage width={width} height={height} src={image_url} className={imageClassName} />
+        {image_url && <FigureImage width={1200} height={923} src={image_url} className={imageClassName} />}
 
 
         <div className="project-details d-flex justify-content-center flex-column" style={detailsStyle}>
