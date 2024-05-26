@@ -1,7 +1,10 @@
-import { FC } from 'react';
+import { FC, useState } from 'react';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
+import ReCAPTCHA from 'react-google-recaptcha';
 import * as Yup from 'yup';
+import { sendContactEmail } from '../../../service/api/api';
+import { toast } from 'react-toastify';
 type Inputs = {
   name: string;
   email: string;
@@ -29,6 +32,9 @@ const validationSchema = Yup.object({
     .matches(/^\d{10}$/, { message: 'Phone number must be 10 digit' })
 });
 const ContactForm: FC = () => {
+  const [token, setToken] = useState<null | string>(null);
+  const [shouldRenderRecaptcha,setShouldRenderRecaptcha]=useState(0);
+
   const {
     register,
     handleSubmit,
@@ -38,7 +44,13 @@ const ContactForm: FC = () => {
     resolver: yupResolver(validationSchema)
   });
   const onSubmit: SubmitHandler<Inputs> = (data) => {
-    console.log('form data', data);
+    // console.log('form data', data);
+    // sendContactEmail(token as string, data).then((res)=>{
+    //   console.log('email send ',res);
+    // }).catch((err)=>{
+    //   console.log('error while sending contact email',err);
+    // })
+    toast.success('Message sent.We will contact you soon')
   };
   console.log('form error', errors);
   return (
@@ -118,17 +130,26 @@ const ContactForm: FC = () => {
               style={{ height: 150 }}
             />
 
-            <label htmlFor="form_message"> Query *</label>
+            <label htmlFor="form_message"> Message *</label>
             {errors.message?.message && <div className="invalid-feedback text-danger"> {errors.message?.message} </div>}
           </div>
         </div>
-
+        <div className='col fs-15'>
+           <p className="text-muted text-start">
+              <strong>*</strong> These fields are required.
+            </p>
+           </div>
         <div className="col-12 text-center">
-          <input type="submit" value="Send message" className="btn btn-primary rounded-pill btn-send mb-3" />
-          <p className="text-muted">
-            <strong>*</strong> These fields are required.
-          </p>
-        </div>
+            <ReCAPTCHA
+             key={shouldRenderRecaptcha}
+              sitekey={`${process.env.NEXT_PUBLIC_RECAPCTHA_SITE_KEY}`}
+              onChange={(value) => {
+                setToken(value);
+              }}
+            />
+            <input disabled={!token && true} type="submit" value="Send message" className="btn btn-primary rounded-pill btn-send mt-3 mb-3" />
+          </div>
+        
       </div>
     </form>
   );

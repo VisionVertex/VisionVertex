@@ -20,6 +20,8 @@ import 'glightbox/dist/css/glightbox.css';
 import 'plugins/scrollcue/scrollCue.css';
 // Bootstrap and custom scss
 import 'assets/scss/style.scss';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
   const { pathname } = useRouter();
@@ -80,6 +82,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <ThemeProvider>
         {/* <div className="page-loader" /> */}
         {loading ? <div className="page-loader" /> : <Component {...pageProps} />}
+        <ToastContainer/>
       </ThemeProvider>
     </Fragment>
   );

@@ -17,4 +17,12 @@ const getProjectDetails= async (slug:string)=>{
      return response.data;
 
 }
-export { getHomePageSliderImages, getClientFeedbacks, getProjects ,getProjectDetails};
+const sendContactEmail= async (token:string,userData:any)=>{
+    const response = await axios.post(`${BaseUrl}/contacts`,{data:userData} ,{
+        headers:{
+            'x-recaptcha-token':token
+        }
+    })
+    return response.data;
+}
+export { getHomePageSliderImages, getClientFeedbacks, getProjects ,getProjectDetails,sendContactEmail};
