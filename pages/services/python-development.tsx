@@ -69,7 +69,7 @@ const pythonDev: NextPage = () => {
         <div className="shape bg-line red rounded-circle rellax w-18 h-18" style={{ top: '-2.2rem', left: '-2.4rem' }} />
         <div className="shape rounded bg-soft-primary rellax d-md-block" style={{ width: '85%', height: '80%', right: '-1.5rem', bottom: '-1.8rem' }} />
         <figure className="rounded">
-          <img style={{ height: '60%', width: '60%', objectFit: 'cover' }} src="/img/newphotos/web-developer.png" srcSet="/img/newphotos/web-developer.png" alt="web-development" />
+          <img style={{marginLeft: '15%', height: '60%', width: '60%', objectFit: 'cover' }} src="/img/newphotos/web-developer.png" srcSet="/img/newphotos/web-developer.png" alt="web-development" />
         </figure>
       </div>
       <div className="col-lg-5 col-xl-4 offset-lg-1">
@@ -105,7 +105,7 @@ const pythonDev: NextPage = () => {
         <div className="shape bg-line red rounded-circle rellax w-18 h-18" style={{ top: '-2.2rem', left: '-2.4rem' }} />
         <div className="shape rounded bg-soft-primary rellax d-md-block" style={{ width: '85%', height: '80%', right: '-1.5rem', bottom: '-1.8rem' }} />
         <figure className="rounded">
-          <img style={{ height: '60%', width: '60%', objectFit: 'cover' }} src="/img/newphotos/technology.png" srcSet="/img/newphotos/technology.png" alt="ai-machine-learning" />
+          <img style={{ marginLeft: '15%',height: '60%', width: '60%', objectFit: 'cover' }} src="/img/newphotos/technology.png" srcSet="/img/newphotos/technology.png" alt="ai-machine-learning" />
         </figure>
       </div>
       <div className="col-lg-5 col-xl-4 offset-lg-1">
@@ -129,7 +129,7 @@ const pythonDev: NextPage = () => {
         <div className="shape bg-line red rounded-circle rellax w-18 h-18" style={{ top: '-2.2rem', left: '-2.4rem' }} />
         <div className="shape rounded bg-soft-primary rellax d-md-block" style={{ width: '80%', height: '100%', right: '-1.5rem', bottom: '-1.8rem' }} />
         <figure className="rounded">
-          <img style={{ height: '60%', width: '60%', objectFit: 'cover' }} src="/img/newphotos/process.png" srcSet="/img/newphotos/process.png" alt="automation-scripting" />
+          <img style={{ marginLeft: '15%',height: '60%', width: '60%', objectFit: 'cover' }} src="/img/newphotos/process.png" srcSet="/img/newphotos/process.png" alt="automation-scripting" />
         </figure>
       </div>
     </div>
