@@ -11,7 +11,7 @@ const Services1: FC = () => {
           <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
             <h2 className="fs-16 text-uppercase text-muted mb-3">What We Do?</h2>
             <h3 className="display-4 mb-10 px-xl-10">
-              The service we offer is specifically designed to meet your needs.
+            Our Python development services are specifically designed to meet your unique needs, ensuring robust, scalable, and efficient solutions.
             </h3>
           </div>
         </div>

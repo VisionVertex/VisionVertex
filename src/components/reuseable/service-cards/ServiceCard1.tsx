@@ -17,10 +17,9 @@ type ServiceCard1Props = {
 
 const ServiceCard1: FC<ServiceCard1Props> = (props) => {
   const { title, description, Icon, linkUrl, linkType, cardClassName = '', iconClassName } = props;
-
   return (
     <div className="col-md-6 col-xl-3">
-      <div className={`card shadow-lg ${cardClassName}`}>
+      <div className={`card shadow-lg ${cardClassName}`} style={{ minHeight: '300px' }}>
         <div className="card-body">
           <Icon className={iconClassName} />
           <h4>{title}</h4>

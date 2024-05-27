@@ -66,43 +66,45 @@ export const ourServies=[
     url:'/services/digital-Marketing-and-seo'
   }
 ]
+
+
 // used in the services-1 block
 export const serviceList1 = [
   {
     id: 1,
     link: '#',
-    icon: Search,
-    title: 'SEO Services',
+    icon: Script,
+    title: 'Web Development',
     linkText: 'Learn More',
     linkType: LinkType.yellow,
-    description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.`
+    description: `Craft robust web applications using Django and Flask frameworks, ensuring scalability and performance.`
   },
   {
     id: 2,
     link: '#',
     icon: Browser,
-    title: 'Web Design',
+    title: 'Data Science & Analytics',
     linkText: 'Learn More',
     linkType: LinkType.red,
-    description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.`
+    description: `Analyze data effectively with Pandas, NumPy, and Matplotlib, extracting actionable insights.`
   },
   {
     id: 3,
     link: '#',
     icon: ChatTwo,
     linkType: LinkType.green,
-    title: 'Social Engagement',
+    title: 'AI & Machine Learning',
     linkText: 'Learn More',
-    description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.`
+    description: `Harness AI potential with TensorFlow, PyTorch, and scikit-learn, optimizing operations.`
   },
   {
     id: 4,
     link: '#',
     icon: Megaphone,
     linkType: LinkType.blue,
-    title: 'Content Marketing',
+    title: 'Automation & Scripting',
     linkText: 'Learn More',
-    description: `Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.`
+    description: `Automate tasks seamlessly with custom Python scripts, enhancing workflow efficiency.`
   }
 ];
 

@@ -40,42 +40,132 @@ const pythonDev: NextPage = () => {
     <main className="content-wrapper">
       {/* ========== page title section ========== */}
       <section className="wrapper bg-soft-primary">
-        <div className="container pt-10 pb-20 pt-md-14 pb-md-12 text-center">
-          <div className="row">
-            <div className="col-xl-5 mx-auto mb-6">
-              <h1 className="display-3 mb-3">Python Development </h1>
-              <p className="lead mb-0">Your vision. Our vertex. Infinite possibilities.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+  <div className="container pt-10 pb-20 pt-md-14 pb-md-12 text-center">
+    <div className="row">
+      <div className="col-xl-7 mx-auto mb-6">
+        <h1 className="display-3 mb-3">Python Development Services</h1>
+        <p className="lead mb-0">
+          Transform your ideas into reality with our comprehensive Python development services. 
+          Whether you're looking to build robust web applications, dive into data analytics, 
+          harness the power of AI, or automate your workflows, our team of experts is here to 
+          deliver innovative solutions tailored to your needs.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
       {/* ========== main content ========== */}
+     
+
+
+
+
+<section className="wrapper bg-light angled lower-end">
+  <div className="container py-4 py-md-4 mb-5">
+    <div className="row gy-10 gy-sm-13 gx-lg-3 align-items-center mb-14 mb-md-17 mb-lg-19">
+      <div className="col-md-8 col-lg-6 position-relative">
+        <div
+          className="shape bg-line red rounded-circle rellax w-18 h-18"
+          style={{ top: '-2.2rem', left: '-2.4rem' }}
+        />
+        <div
+          className="shape rounded bg-soft-primary rellax d-md-block"
+          style={{ width: '85%', height: '80%', right: '-1.5rem', bottom: '-1.8rem' }}
+        />
+       <figure className="rounded">
+  <img  style={{ height: '60%', width: '60%', objectFit: 'cover' }} src="/img/newphotos/web-developer.png" srcSet="/img/newphotos/web-developer.png" alt="web-development" />
+</figure>
+
+      </div>
+      <div className="col-lg-5 col-xl-4 offset-lg-1">
+        <h2 className="display-4 mb-3">Web Development with Python</h2>
+        <p className="lead fs-lg mb-6">
+          Our web development services encompass the creation of robust and scalable web applications using leading-edge Python frameworks such as Django and Flask. We ensure your web application is intuitive, secure, and optimized for performance, providing an exceptional user experience across all devices.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div className="container py-4 py-md-4 mb-5">
+    <div className="row gy-10 gy-sm-13 gx-lg-3 align-items-center mb-14 mb-md-17 mb-lg-19">
+      <div className="col-lg-5 col-xl-4">
+        <h2 className="display-4 mb-3">Data Science & Analytics</h2>
+        <p className="lead fs-lg mb-6">
+          Unlock the power of your data with our comprehensive data science and analytics services. Leveraging Python's extensive libraries such as Pandas, NumPy, and Matplotlib, we help you extract valuable insights, identify trends, and make informed decisions that drive business growth.
+        </p>
+      </div>
+      <div className="col-md-8 col-lg-6 offset-lg-1 position-relative">
+        <div
+          className="shape bg-line red rounded-circle rellax w-18 h-18"
+          style={{ top: '-2.2rem', left: '-2.4rem' }}
+        />
+        <div
+          className="shape rounded bg-soft-primary rellax d-md-block"
+          style={{ width: '80%', height: '80%', right: '-1.5rem', bottom: '-1.8rem' }}
+        />
+        <figure className="rounded">
+        <img style={{marginLeft:'15%', height: '60%', width: '60%', objectFit: 'cover' }} src="/img/newphotos/data-science.png" srcSet="/img/newphotos/data-science.png" alt="data-science-analytics" />
+               </figure>
+
+      </div>
+    </div>
+  </div>
+
+  <div className="container py-4 py-md-4 mb-5">
+    <div className="row gy-10 gy-sm-13 gx-lg-3 align-items-center mb-14 mb-md-17 mb-lg-19">
+      <div className="col-md-8 col-lg-6 position-relative">
+        <div
+          className="shape bg-line red rounded-circle rellax w-18 h-18"
+          style={{ top: '-2.2rem', left: '-2.4rem' }}
+        />
+        <div
+          className="shape rounded bg-soft-primary rellax d-md-block"
+          style={{ width: '85%', height: '80%', right: '-1.5rem', bottom: '-1.8rem' }}
+        />
+    <figure className="rounded">
+    <img style={{ height: '60%', width: '60%', objectFit: 'cover' }} src="/img/newphotos/technology.png" srcSet="/img/newphotos/technology.png" alt="ai-machine-learning" />
+</figure>
+
+      </div>
+      <div className="col-lg-5 col-xl-4 offset-lg-1">
+        <h2 className="display-4 mb-3">AI & Machine Learning</h2>
+        <p className="lead fs-lg mb-6">
+          Empower your business with cutting-edge AI and machine learning solutions. Our expert team specializes in developing and integrating AI solutions using industry-leading Python frameworks such as TensorFlow, PyTorch, and scikit-learn.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div className="container py-4 py-md-4 mb-5">
+    <div className="row gy-10 gy-sm-13 gx-lg-3 align-items-center mb-14 mb-md-17 mb-lg-19">
+      <div className="col-lg-5 col-xl-4">
+        <h2 className="display-4 mb-3">Automation & Scripting</h2>
+        <p className="lead fs-lg mb-6">
+          Streamline your workflows and boost productivity with our automation and scripting services. Our team of Python experts specializes in developing custom scripts and automation solutions that automate repetitive tasks, eliminate manual errors, and free up valuable time.
+        </p>
+      </div>
+      <div className="col-md-8 col-lg-6 offset-lg-1 position-relative">
+        <div
+          className="shape bg-line red rounded-circle rellax w-18 h-18"
+          style={{ top: '-2.2rem', left: '-2.4rem' }}
+        />
+        <div
+          className="shape rounded bg-soft-primary rellax d-md-block"
+          style={{ width: '80%', height: '100%', right: '-1.5rem', bottom: '-1.8rem' }}
+        />
+         <figure className="rounded">
+           <img style={{ height: '60%', width: '60%', objectFit: 'cover' }} src="/img/newphotos/process.png" srcSet="/img/newphotos/process.png" alt="automation-scripting" />
+          </figure>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
    
-        {/* ========== hero sections ========== */}
-      
-
-        <section className="wrapper bg-light angled lower-end">
-          <div className="container py-1 py-md-1">
-      
-         
-        
-          <div className="container pt-6 pt-md-6 pb-13 pb-md-15 mb-n15">
-          <All.Services8 />
-        </div>
-           
-             
- 
-            {/* ========== process section ========== */}
-            {/* <Process7 /> */}
-          </div>
-        </section>
-      {/* ========== process section ==========    */}
-
-      <div className="pt-10 pt-md-5 pb-10 pb-md-10">
-              <All.Services1 />
-        </div>
-
-        {/* <img src="/img/web-image.png"  alt="oracle" /> */}
        
   {/* ========== our community section ========== */}
   <Contact9 />
@@ -98,16 +188,16 @@ const pythonDev: NextPage = () => {
     
        
        
-        <div className="container pt-15 pt-md-17 pb-13 pb-md-15 mb-lg-n22 mb-xl-n24">
+        {/* <div className="container pt-15 pt-md-17 pb-13 pb-md-15 mb-lg-n22 mb-xl-n24">
           <All.Services9 />
         </div>
         <div className="container pt-15 pt-md-17 pb-13 pb-md-15">
           <Alls.FAQ1 />
-        </div>
+        </div> */}
         {/* <div className="pb-13 pb-md-15">
           <Allss.Contact12 />
         </div> */}
-        <CTA5 />
+        {/* <CTA5 /> */}
       {/* ========== footer section ========== */}
       <Footer8 />
     </Fragment>
